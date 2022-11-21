@@ -43,3 +43,4 @@ nav:
     - 首页: "course/index.md"
   - 作业攻略:
     - 首页: "homework/index.md"
+  - 资源分享: "resource/index.md"
