@@ -38,9 +38,5 @@ extra_javascript:
 nav:
   - 首页:
     - 欢迎来到未央学习: "index.md"
-    - 随便谢谢: "author.md"
-  - 课程笔记:
-    - 首页: "course/index.md"
-  - 作业攻略:
-    - 首页: "homework/index.md"
-  - 资源分享: "resource/index.md"
+    - 读者须知: "reader.md"
+    - 加入我们！: "author.md"
