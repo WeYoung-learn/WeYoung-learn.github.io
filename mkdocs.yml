@@ -40,3 +40,23 @@ nav:
     - 欢迎来到未央学习: "index.md"
     - 读者须知: "reader.md"
     - 加入我们！: "author.md"
+  - 课程指引:
+    - 介绍: "courses/index.md"
+    - 必修课:
+      - 微积分:
+        - 介绍: "courses/basic/calculus/index.md"
+      - 线性代数:
+        - 介绍: "courses/basic/linear_algebra/index.md"
+      - 程序设计基础:
+        - 介绍: "courses/basic/programming/index.md"
+      - 概率论:
+        - 介绍: "courses/basic/probability/index.md"
+      - 复变函数:
+        - 介绍: "courses/basic/complex_func/index.md"
+    - 专业课: "courses/professional/index.md"
+  - 技能培训:
+    - 介绍: "skills/index.md"
+  - 资源链接:
+    - 介绍: "resources/index.md"
+  - 未央活动:
+    - 介绍: "activities/index.md"
