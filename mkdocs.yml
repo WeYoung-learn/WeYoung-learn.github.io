@@ -56,6 +56,7 @@ nav:
     - 专业课: "courses/professional/index.md"
   - 技能培训:
     - 介绍: "skills/index.md"
+    - mkdocs material 教程: "skills/mkdocs.md"
   - 资源链接:
     - 介绍: "resources/index.md"
   - 未央活动:
