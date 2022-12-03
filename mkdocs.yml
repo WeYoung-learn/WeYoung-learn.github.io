@@ -55,7 +55,7 @@ nav:
         - 介绍: "courses/basic/probability/index.md"
       - 复变函数:
         - 介绍: "courses/basic/complex_func/index.md"
-      - 数学物理方程：
+      - 数学物理方程:
         - 介绍: "courses/basic/mathematical_physics_equations/index.md"
     - 专业课: "courses/professional/index.md"
   - 技能培训:
