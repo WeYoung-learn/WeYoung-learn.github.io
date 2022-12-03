@@ -48,13 +48,20 @@ mkdocs serve
 ## 部署网站
 您可以使用 GitHub Pages 等方式部署您的网站，从而让其他人看到您的作品。关于如何部署网站，[Material for MkDocs 官方文档](https://squidfunk.github.io/mkdocs-material/publishing-your-site/) 已然提供了相当详尽的说明。如果您先前没有相关知识或经验，我们相信您会在这个过程中获得很大的收获！
 
-省流：您需要新建一个 GitHub 仓库、在 `mkdocs.yml` 文件中进行相应配置，最后输入如下指令，方可成功部署：
+省流：您需要新建一个特定的 GitHub 仓库、在 `mkdocs.yml` 文件中进行相应配置，最后输入如下指令，方可成功部署：
 ```
 mkdocs gh-deploy
 ```
 
-当然，作为补充，本文仍将强调一个或许您已注意到的细节：在我们的 GitHub 仓库中，有两个主要的分支—— master 与 gh-pages。前者包含了大量的 Markdown 等源文件；而后者则将这些 Markdown 文件转换成了 HTML 格式，最终形成了我们所看到的网站格式。
+当然，作为补充，本文仍将强调一个或许您已注意到的细节：在我们的 GitHub 仓库中，有两个主要的分支—— master 与 gh-pages。前者包含了大量的 Markdown 等源文件；而后者则将这些 Markdown 文件转换成了 HTML 格式，最终形成了我们所看到的网站。
 
 如果您按照官方文档完成了相关配置，那么您在 master 分支输入 `mkdocs gh-deploy` 后，gh-pages 分支将自动更新并 push 到远程仓库、并部署到您的 GitHub Pages 上。Hmmmmm, very interesting!
 
 至此，如果一切顺利（但往往不是），您可以访问 https://xxx.github.io（xxx 为您的 GitHub 用户名），看到您成功部署的网站！快把这个网站链接分享给您的朋友，让他们来访问吧！
+
+## 补充阅读
+您可以进一步阅读以下材料，以加深您对本文提到的相关知识的了解：
+
+1. [MDN](https://developer.mozilla.org/zh-CN/)：一份我们认为不错的 Web 入门教程
+2. [Hexo](https://hexo.io/)：搭建个人博客的一种框架
+3. [Markdown](https://www.markdowntutorial.com/)：不会吧不会吧，难道还有人不在用 Markdown 做笔记？
