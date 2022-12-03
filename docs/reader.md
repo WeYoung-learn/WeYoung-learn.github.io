@@ -9,8 +9,8 @@
 * 资源链接：/docs/resources
 ### 二、文件下载
 * 对于网盘上的文件，可直接到网盘相应路径下载。
-* 对于 Markdown 格式的文件，可访问 [GitHub 仓库](https://github.com/WeYoung-learn/WeYoung-learn.github.io) 获取`.md`格式的源码，也可点击网站当前页面右上角的图标，下载转换成 PDF 格式的文件(TODO: pdf插件)。
-* 此外，也可以使用 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/getting-started/) 在本地部署并浏览该网页(TODO: mkdocs 教程)。
+* 对于 [Markdown](https://weyoung-learn.github.io/skills/markdown/) 格式的文件，可访问 [GitHub 仓库](https://github.com/WeYoung-learn/WeYoung-learn.github.io) 获取`.md`格式的源码，也可点击网站当前页面右上角的图标，下载转换成 PDF 格式的文件(TODO: pdf插件)。
+* 此外，也可以使用 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/getting-started/) 在本地部署并浏览该网页。不会使用？别担心，我们为你提供了 [MkDocs Material 教程](https://weyoung-learn.github.io/skills/mkdocs/)！
 
 ## 如何向我们反馈问题
 由于本项目尚不成熟，所以在文档架构、内容措辞等方面可能存在着一些问题，也可能出现超链接失效、插件功能缺失等 bug 。如果你对本项目有任何意见或建议，欢迎采用如下的几种方式向我们反馈：
