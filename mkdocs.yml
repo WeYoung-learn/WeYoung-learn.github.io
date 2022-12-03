@@ -43,16 +43,11 @@ nav:
   - 课程指引:
     - 介绍: "courses/index.md"
     - 必修课:
-      - 微积分:
-        - 介绍: "courses/basic/calculus/index.md"
-      - 线性代数:
-        - 介绍: "courses/basic/linear_algebra/index.md"
-      - 程序设计基础:
-        - 介绍: "courses/basic/programming/index.md"
-      - 概率论:
-        - 介绍: "courses/basic/probability/index.md"
-      - 复变函数:
-        - 介绍: "courses/basic/complex_func/index.md"
+      - 微积分: "courses/basic/calculus/index.md"
+      - 线性代数: "courses/basic/linear_algebra/index.md"
+      - 程序设计基础: "courses/basic/programming/index.md"
+      - 概率论: "courses/basic/probability/index.md"
+      - 复变函数: "courses/basic/complex_func/index.md"
     - 专业课: "courses/professional/index.md"
   - 技能培训:
     - 介绍: "skills/index.md"
