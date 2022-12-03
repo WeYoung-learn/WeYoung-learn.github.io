@@ -50,7 +50,7 @@ nav:
       - 程序设计基础:
         - 介绍: "courses/basic/programming/index.md"
       - 基础物理学:
-        - 介绍:"courses/basic/fundamental_physics/index.md"
+        - 介绍: "courses/basic/fundamental_physics/index.md"
       - 概率论:
         - 介绍: "courses/basic/probability/index.md"
       - 复变函数:
