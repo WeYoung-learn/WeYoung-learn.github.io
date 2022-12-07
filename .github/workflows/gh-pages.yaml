@@ -1,16 +1,19 @@
 name: Deploy GitHub Pages
-
 on:
   push:
     branches:
       - master
-  workflow_dispatch:
-
+permissions:
+  contents: write
 jobs:
-  docs:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-      - name: Deploy MkDocs
-        uses: ./.github/actions/docs
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: pip install \
+              mkdocs-material \
+              mkdocs-awesome-pages-plugin \
+      - run: mkdocs gh-deploy --force
