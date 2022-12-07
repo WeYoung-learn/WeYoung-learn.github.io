@@ -30,6 +30,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+plugins:
+  - glightbox
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -53,6 +56,7 @@ nav:
     - 介绍: "skills/index.md"
     - mkdocs：搭建一个属于你的小网站: "skills/mkdocs.md"
     - Markdown：无纸化学习必备: "skills/markdown.md"
+    - EndNote： 你的宝藏文献管理工具: "skills/endnote.md"
   - 资源链接:
     - 介绍: "resources/index.md"
   - 未央活动:
