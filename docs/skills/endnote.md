@@ -54,6 +54,7 @@ EndNote使用library来对文献进行管理，所以我们先要创建一个lib
 ![](../img/skills/endnote/5.png)
 
 选择保存路径后点击保存, EndNote会自动生成两个文件：
+
 !!! tip
     注: 我这里保存的是C盘, 因为我的电脑只有一个盘; 如果你的电脑已经分好盘了，建议你保存在D盘。这里默认创建的library名称为My Endnote Library, 你也可以修改它。
 
