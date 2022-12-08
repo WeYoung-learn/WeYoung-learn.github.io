@@ -49,8 +49,11 @@ nav:
       - 微积分: "courses/basic/calculus/index.md"
       - 线性代数: "courses/basic/linear_algebra/index.md"
       - 程序设计基础: "courses/basic/programming/index.md"
+      - 基础物理学: "courses/basic/fundamental_physics/index.md"
       - 概率论: "courses/basic/probability/index.md"
+      - 工程图学基础: "courses/basic/fundamentals_of_engineering_graphics/index.md"
       - 复变函数: "courses/basic/complex_func/index.md"
+      - 数理方程: "courses/basic/mathematical_physics_equations/index.md"
     - 专业课: "courses/professional/index.md"
   - 技能培训:
     - 介绍: "skills/index.md"
