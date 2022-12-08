@@ -1,8 +1,7 @@
 # LaTex 讲座
 
-2022年4月3日，未央书院科协学术部开展了 LaTeX 讲座，主讲人为
-未央-环建11 杨玉鼎 与 未央-材12 严雯乐。
+[基础教程](https://mp.weixin.qq.com/s/LoDPXa9BpFCEu2z-_sKZmg)
 
-同学们学习了 LaTeX 的基础知识、文章排版、插入图片、制作表格、数学公式等技能。
+[关于环境配置的一些问题](https://mp.weixin.qq.com/s/SHUpV0zjvDzTx9Ut6IgqGA)
 
-[下载链接](https://cloud.tsinghua.edu.cn/d/d1fa5ba9f7454bbc9a08/)
+[讲座录像](https://cloud.tsinghua.edu.cn/d/d1fa5ba9f7454bbc9a08/)
