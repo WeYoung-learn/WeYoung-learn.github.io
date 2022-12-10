@@ -50,6 +50,7 @@ nav:
       - 线性代数: "courses/basic/linear_algebra/index.md"
       - 程序设计基础: "courses/basic/programming/index.md"
       - 基础物理学: "courses/basic/fundamental_physics/index.md"
+      - 离散数学: "courses/basic/discrete_mathematics/index.md"
       - 概率论: "courses/basic/probability/index.md"
       - 工程图学基础: "courses/basic/fundamentals_of_engineering_graphics/index.md"
       - 复变函数: "courses/basic/complex_func/index.md"

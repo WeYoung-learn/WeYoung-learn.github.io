@@ -2,7 +2,7 @@
 
 ## 网盘链接
 
-* [微积分A(1)]
+* [微积分A(1)](https://cloud.tsinghua.edu.cn/d/3d9fc8063bd64aedbd55/)
 * [微积分A(2)](https://cloud.tsinghua.edu.cn/d/db683c97658541b4b24f/)
 
 ## 其它资源
