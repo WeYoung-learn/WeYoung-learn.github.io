@@ -7,6 +7,7 @@
 * 课程指引：/docs/courses
 * 技能培训：/docs/skills
 * 资源链接：/docs/resources
+* 未央活动：/docs/activities
 ### 二、文件下载
 * 对于网盘上的文件，可直接到网盘相应路径下载。
 * 对于 [Markdown](https://weyoung-learn.github.io/skills/markdown/) 格式的文件，可访问 [GitHub 仓库](https://github.com/WeYoung-learn/WeYoung-learn.github.io) 获取`.md`格式的源码，也可点击网站当前页面右上角的图标，下载转换成 PDF 格式的文件(TODO: pdf插件)。
@@ -17,3 +18,12 @@
 
 * 在该项目的 [GitHub Repo](https://github.com/WeYoung-learn/WeYoung-learn.github.io) 中提交  Issue，具体方法可参考[如何提交 GitHub Issue](https://docs.github.com/en/issues)。
 * 你也可以在联系维护人员后，在 GitHub 仓库中提交 Pull Request，具体方法可参考[如何提交 Pull Request](https://docs.github.com/en/pull-requests)。
+
+## 如何联系我们
+
+可以直接添加网站维护人员的微信，与我们进行联系。
+
+| 姓名 | 邮箱 | 微信号 |
+| ---- | ---- | ---- |
+| 刘桐华 | liuth21@mails.tsinghua.edu.cn | underice-lth |
+| 沈之洋 | shenzhiy21@mails.tsinghua.edu.cn | ZysTheDog |
