@@ -5,6 +5,7 @@ repo_name: WeYoung-learn
 
 theme:
   name: 'material'
+  custom_dir: overrides
   language: zh
   icon:
     logo: material/file-document
