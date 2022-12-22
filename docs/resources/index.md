@@ -26,3 +26,5 @@
 * [Integral Calculator](https://www.integral-calculator.com/)：在线的积分计算网站（**温馨提示**：请勿用于完成微积分/复变函数等课程的作业！！！）
 
 ## 其它资源
+
+> 若有侵权，请上述资源的作者/提供者[邮件联系我们](mailto:shenzhiy21@mails.tsinghua.edu.cn)，我们将尽快删除。
