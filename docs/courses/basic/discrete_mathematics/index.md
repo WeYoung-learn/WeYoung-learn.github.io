@@ -1,6 +1,6 @@
-#离散数学
+# 离散数学
 
-##[网盘链接](https://cloud.tsinghua.edu.cn/d/e012a5a170184804b1a3/)
+## [网盘链接](https://cloud.tsinghua.edu.cn/d/e012a5a170184804b1a3/)
     
 网盘中包括了离散数学（1）的
 

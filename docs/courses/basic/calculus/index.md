@@ -5,6 +5,9 @@
 * [微积分A(1)](https://cloud.tsinghua.edu.cn/d/3d9fc8063bd64aedbd55/)
 * [微积分A(2)](https://cloud.tsinghua.edu.cn/d/db683c97658541b4b24f/)
 
+## 书籍推荐
+《数学分析习题课讲义》：wxf老师推荐的微积分教辅习题书（悄悄告诉你，书里有往年微积分期末考试真题哦）
+
 ## 其它资源
 
 !!! warning "重要提示"
