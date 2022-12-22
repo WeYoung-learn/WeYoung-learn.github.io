@@ -16,8 +16,9 @@
 * [未央学习资料共享计划](https://cloud.tsinghua.edu.cn/d/8fdcc35dcc3b441c8c25/)：本计划的网盘地址
 * [TUNA 清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)：清华大学 TUNA 协会运维的镜像站，便于墙内用户下载各类软件。简称“清华源”。类似的镜像网站有：[中科大镜像源](https://mirrors.ustc.edu.cn/)、[华为云](https://mirrors.huaweicloud.com/home)、[阿里云](https://developer.aliyun.com/mirror/)、[网易](https://mirrors.163.com/)等
 * [TsinghuaOverleaf](https://overleaf.tsinghua.edu.cn/)：在线的 LaTeX 编辑网站
-* [清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)：包含大多数必修课与计算机系专业课的学习攻略
+* [清华教参服务平台辅助工具](https://github.com/libthu/reserves-lib-tsinghua-downloader)：教参平台爬虫，可下载每一页的图片并自动生成 PDF
 * [清华常用信息/服务汇总](https://thu.services/)：非常好用的信息汇总网站
+* [清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)：包含大多数必修课与计算机系专业课的学习攻略
 * [星期四 Thursday](https://tsinghua.app/)：包含课程信息平台 [courseX](https://tsinghua.app/courses)、网络学堂APP [learnX](https://tsinghua.app/learn) 等实用资源
 * [thu-info](https://github.com/thu-info-community/thu-info-app)：info 网站的移动端替代品，可以便捷查询课表、成绩单、体测成绩、卫生成绩等
 * [Sci-Hub](https://sci-hub.se/)：免费且不受限制地提供所有发表在杂志和书籍中的科学知识
