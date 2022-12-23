@@ -1,0 +1,680 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-8.5.10" name="generator"/>
+<title>EndNote： 你的宝藏文献管理工具 - 未央学习</title>
+<link href="../../assets/stylesheets/main.975780f9.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
+<meta content="#02a6f2" name="theme-color"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                .gdesc-inner { font-size: 0.75rem; }
+                body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+                body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+                body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="" data-md-color-primary="light-blue" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#endnote">
+          跳转至
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="页眉" class="md-header__inner md-grid">
+<a aria-label="未央学习" class="md-header__button md-logo" data-md-component="logo" href="../.." title="未央学习">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            未央学习
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              EndNote： 你的宝藏文献管理工具
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="搜索" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="搜索" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="查找" class="md-search__options">
+<button aria-label="清空当前内容" class="md-search__icon md-icon" tabindex="-1" title="清空当前内容" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/WeYoung-learn/WeYoung-learn.github.io" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    WeYoung-learn
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="标签" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+        首页
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../courses/">
+        课程指引
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../">
+        技能培训
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../resources/">
+        资源链接
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../activities/">
+        未央活动
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="未央学习" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="未央学习">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"></path></svg>
+</a>
+    未央学习
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/WeYoung-learn/WeYoung-learn.github.io" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    WeYoung-learn
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1">
+          首页
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="首页" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+          首页
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        欢迎来到未央学习
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../reader/">
+        读者须知
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../author/">
+        加入我们！
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          课程指引
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="课程指引" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          课程指引
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/">
+        介绍
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" id="__nav_2_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_2">
+          必修课
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="必修课" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_2">
+<span class="md-nav__icon md-icon"></span>
+          必修课
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/basic/calculus/">
+        微积分
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/basic/linear_algebra/">
+        线性代数
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/basic/programming/">
+        程序设计基础
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/basic/fundamental_physics/">
+        基础物理学
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/basic/discrete_mathematics/">
+        离散数学
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/basic/probability/">
+        概率论
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/basic/fundamentals_of_engineering_graphics/">
+        工程图学基础
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/basic/complex_func/">
+        复变函数
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/basic/mathematical_physics_equations/">
+        数理方程
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../courses/professional/">
+        专业课
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          技能培训
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="技能培训" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          技能培训
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../">
+        介绍
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../mkdocs/">
+        mkdocs：搭建一个属于你的小网站
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../markdown/">
+        Markdown：无纸化学习必备
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          EndNote： 你的宝藏文献管理工具
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        EndNote： 你的宝藏文献管理工具
+      </a>
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#01">
+    01 软件介绍
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#02">
+    02 安装流程
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#03">
+    03 导入文献
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#04">
+    04 插入参考文献
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#05">
+    05 小结
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../matlab/">
+        MATLAB 讲座
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../latex/">
+        LaTeX 讲座
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../R/">
+        R语言使用指南
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4">
+          资源链接
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="资源链接" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          资源链接
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../resources/">
+        介绍
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5">
+          未央活动
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="未央活动" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          未央活动
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../activities/">
+        介绍
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#01">
+    01 软件介绍
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#02">
+    02 安装流程
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#03">
+    03 导入文献
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#04">
+    04 插入参考文献
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#05">
+    05 小结
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/WeYoung-learn/WeYoung-learn.github.io/edit/master/docs/skills/endnote.md" title="编辑此页">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<h1 id="endnote">你的宝藏文献管理工具 EndNote</h1>
+<blockquote>
+<p>转载自 THU长乐未央 公众号. 作者：未央学术. <a href="https://mp.weixin.qq.com/s/d58CYbhyBGb_1S7lYnNjIg">原文链接</a></p>
+</blockquote>
+<p>如果你在实验室搬砖、学习探究性课程时面对着大量文献而不知所措，或是在论文写作时对文献的引用感到麻烦，那么这篇推送或许能帮助到你。</p>
+<p>未央科协学术部的同学将会从软件下载开始，一步步教会你如何上手EndNote这款科研软件，帮助你更高效地管理文献和撰写论文。</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>温馨提示，阅读文本大约需要20-30min</p>
+</div>
+<h2 id="01">01 软件介绍</h2>
+<p>EndNote来源于英文单词 endnote（尾注），是一款由ThomsonCorporation下属的Thomson ResearchSoft子公司开发的一款学术软件，也是SCI的官方软件。</p>
+<p>EndNote的主要功能有: </p>
+<ol>
+<li>
+<p>在线搜索文献在线搜索文献：直接从网络搜索相关文献并导入到Endnote的文献库内</p>
+</li>
+<li>
+<p>建立文献库和图片库：收藏，管理和搜索个人文献和图片、表格;</p>
+</li>
+<li>
+<p>定制文稿：直接在Word中格式化引文和图形，利用文稿模板直接书写合乎杂志社要求的文章;</p>
+</li>
+<li>
+<p>引文编排：可以自动帮助我们编辑参考文献的格式</p>
+</li>
+</ol>
+<p>......</p>
+<p>这些功能能帮助我们高效地管理文献，也让我们的科研探究和学术写作变得更加便捷。接下来，让我们从软件的下载开始，踏上EndNote的学习之旅吧~</p>
+<h2 id="02">02 安装流程</h2>
+<p>点开EndNote官网，你会看到：
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/1.png"><img alt="" src="../../img/skills/endnote/1.png"/></a></p>
+<p>别担心，虽然EndNote的售价并不便宜，但世一大早已经帮同学们买好了，大家只要照着下面几个步骤依次进行，就能顺利安装好最新版本EndNote20。</p>
+<ol>
+<li>
+<p>打开清华大学信息化用户服务平台，点击公共软件-&gt;专业软件-&gt;EndNote
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/2.png"><img alt="" src="../../img/skills/endnote/2.png"/></a></p>
+</li>
+<li>
+<p>根据电脑操作系统选择EndNote版本，本文以Windows为例（MacOS同理），点击EndNote 20 for Windows，网站会自动下载安装包。</p>
+</li>
+<li>
+<p>下载完后点开EndNote20InstallerForWin.zip，将其存在合适位置后随后进行解压，可以看到以下文件:
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/3.png"><img alt="" src="../../img/skills/endnote/3.png"/></a></p>
+</li>
+<li>
+<p>根据”Windows用户安装说明.txt”的提示完成endnote的安装。</p>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>注: 学校下载的EndNote20是全英界面的，本文也是基于英文界面进行介绍，网络上有EndNote X9等前置版本的汉化版，功能与20相近。</p>
+</div>
+<h2 id="03">03 导入文献</h2>
+<p>点开EndNote官网，你会如下界面:
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/4.png"><img alt="" src="../../img/skills/endnote/4.png"/></a></p>
+<p>EndNote使用library来对文献进行管理，所以我们先要创建一个library。点击左上角File-&gt;new, 会出现以下界面:
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/5.png"><img alt="" src="../../img/skills/endnote/5.png"/></a></p>
+<p>选择保存路径后点击保存, EndNote会自动生成两个文件：</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>注: 我这里保存的是C盘, 因为我的电脑只有一个盘; 如果你的电脑已经分好盘了，建议你保存在D盘。这里默认创建的library名称为My Endnote Library, 你也可以修改它。</p>
+</div>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/6.png"><img alt="" src="../../img/skills/endnote/6.png"/></a></p>
+<p>你的文献数据保存在<code>*.Date</code>中，而<code>*.enl</code>文件可以帮助你在EndNote中打开library。如果你需要更改文件位置，请将两个文件一并更改。</p>
+<p>创建好library后，我们就可以导入文献了。点击左侧的My Groups, 你可以看到library的所有文献。EndNote是按照Groupset-&gt;Group-&gt;Paper的次序对文献进行管理的(具体可以参见:EndNote 的组和群组 | 科研动力 (howsci.com)） 。比如，我们可以新建一个Group Set，右键点击My Groups，点击create group set，输入名称(这里以Quantum为例)：
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/7.png"><img alt="" src="../../img/skills/endnote/7.png"/></a></p>
+<p>在Group Set中, 我们还可以通过右键点击Group Set的方式创建Group：
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/8.png"><img alt="" src="../../img/skills/endnote/8.png"/></a></p>
+<p>接下来，我们就可以根据文献类别将其导入到相应的Group中。</p>
+<p>EndNote文献导入的方式有很多种：从本地pdf导入，EndNote click，EndNote在线检索，数据库批量导入等等。</p>
+<ol>
+<li>直接从本地pdf文件导入文献，假设你将论文的PDF文件存放于以下路径：
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/9.png"><img alt="" src="../../img/skills/endnote/9.png"/></a></li>
+</ol>
+<p>现在我们把将文献导入到endnote中，点击右上角file-&gt;import-&gt;folder，选择“Quantum Mechenics”文件夹，接着勾选两个选项（这里直接通过文件夹的名称给group/group set命名），点击“import”
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/10.png"><img alt="" src="../../img/skills/endnote/10.png"/></a></p>
+<p>你会发现文献成功导入：
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/11.png"><img alt="" src="../../img/skills/endnote/11.png"/></a></p>
+<p>点击文献，右侧会出现文献的各种信息，你也可以直接在endnote中查看论文：
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/12.png"><img alt="" src="../../img/skills/endnote/12.png"/></a></p>
+<p>这里大家可能发现一个问题，上图的第一篇论文似乎没有显示作者、年份的信息，这是由于EndNote未从PDF文件中识别到该论文的DOI号，导致无法自动添加相关信息。我们可以先将第一篇论文的标题改为它的原标题（在右侧edit中）：
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/13.png"><img alt="" src="../../img/skills/endnote/13.png"/></a></p>
+<p>然后右键点击文献信息，选择“Find Reference Update”，就会跳出以下信息：
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/14.png"><img alt="" src="../../img/skills/endnote/14.png"/></a></p>
+<p>这是EndNote通过标题检索到的文献信息，你可以直接通过此方式补充文献信息。
+此外，EndNote还有很多其他导入文献的方法：</p>
+<ol>
+<li>
+<p>浏览器的EndNote Click：
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/15.png"><img alt="" src="../../img/skills/endnote/15.png"/></a></p>
+</li>
+<li>
+<p>通过数据库进行批量导入（以知网为例）:
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/16.png"><img alt="" src="../../img/skills/endnote/16.png"/></a></p>
+</li>
+<li>
+<p>EndNote自带的Web Search:
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/17.png"><img alt="" src="../../img/skills/endnote/17.png"/></a></p>
+</li>
+</ol>
+<p>这些方法都能将文献的信息导入EndNote，而文献对应的PDF文件也会以附件的形式存在文献的栏目下。由于篇幅有限，就不给大家详细介绍了。</p>
+<h2 id="04">04 插入参考文献</h2>
+<p>接下来将介绍如何利用EndNote让我们在写作中更方便地插入参考文献。如果你正在用LaTeX写作，那么可以从自己的EndNote Library生成BibTeX文件。如果你还不熟悉如何在LaTeX中使用BibTeX,可以参考：https://zhuanlan.zhihu.com/p/397026871。从EndNote Library生成BibTeX文件的操作十分简单：首先选中你要导出的文献，然后点击“File”-&gt;“Export”；
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/18.png"><img alt="" src="../../img/skills/endnote/18.png"/></a></p>
+<p>在导出窗口中选择“保存类型(T)”为“Text File (*.txt)”，“Output style”选择“BibTeX Export”，就可以把选中的文献以BibTeX格式导出。导出的文件是 .txt 格式，可以直接重命名为 .bib 格式。
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/19.png"><img alt="" src="../../img/skills/endnote/19.png"/></a></p>
+<p>当然有的时候我们也需要在Microsoft Word或者PowerPoint里面插入参考文献，这时EndNote就显得更加便捷。在安装完EndNote 20之后，打开Microsoft Word/PowerPoint，或许可以在选项卡上看到EndNote 20这个加载项（Cite While You Write add-in for Microsoft Office）。</p>
+<p>这个加载项在安装时是可选项，如果没有安装的话需要再单独装一下。（如果找不到这个EndNote 20选项，可以参考：https://blog.csdn.net/weixin_38179221/article/details/120063258）。
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/20.png"><img alt="" src="../../img/skills/endnote/20.png"/></a></p>
+<p>有了这个加载项，在写作的时候就可以很方便的引用EndNote Library中的文献。比如我正在写这篇公众号文章，现在想要在下一个逗号处引用一篇随机文献1，那么只需以下步骤：</p>
+<ol>
+<li>在EndNote中选中你要引用的文献</li>
+<li>回到Word选择引用的格式“Style”,比如我们在上图中选择了“Nature”（EndNote提供超过6000种引用格式，如果找不到你需要的格式，可以去https://endnote.com/downloads/styles/ 下载所需Output Styles）。</li>
+<li>把光标移到需要插入参考文献的位置，然后点击最左侧的“Insert Citation”-&gt;“Insert Selected Citation(s)”
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/21.png"><img alt="" src="../../img/skills/endnote/21.png"/></a></li>
+</ol>
+<p>然后我们得到了下图中的结果:
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/22.png"><img alt="" src="../../img/skills/endnote/22.png"/></a></p>
+<p>注意图中红框提示的部分是通过EndNote插入的引用。注意这时插入到文末的内容虽然可以更改，但是还有可能被EndNote复原，因为选项卡命令第三栏中“Instant Formatting is Off”选项可能处于“Instant Formatting is On”的状态。在On的状态，每次插入参考文献都会刷新文末的参考文献列表，所以你的更改可能会被覆盖掉。如果EndNote插入的内容需要手动更改，可以通过“Convert Citations and Bibliography”-&gt;“Convert to Plain Text”生成一个新的Word文件，其中的参考文献都是普通文本，就可以随意更改了。
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/skills/endnote/23.png"><img alt="" src="../../img/skills/endnote/23.png"/></a></p>
+<h2 id="05">05 小结</h2>
+<p>本文简单介绍了EndNote的安装，文献的导入，和使用EndNote进行参考文献的插入的方法，相信你对这款文献管理软件有了初步的认知。但其实，EndNote还有很多方便的功能，由于篇幅有限，我们无法一一介绍，大家如果想要更加熟练和优雅地使用这款软件，可以查看EndNote的官方教程、相关的知乎专栏、b站教程等学习资源。</p>
+<p>当然，文献管理软件还有很多，EndNote未必是最适合你的一款，大家也可以通过自己的尝试和体验、与研究生学长学姐交流，找到最适合你的一款😉。最后，祝阅读这篇推送的你学业有成，科研顺利~</p>
+<blockquote>
+<p>文案｜祝尔乐 杨骏</p>
+<p>排版｜祝尔乐</p>
+<p>审核｜宗孝存 牛浩懿 钱菱潇 吴承晋</p>
+</blockquote>
+<form class="md-feedback" hidden="" name="feedback">
+<fieldset>
+<legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+<div class="md-feedback__inner">
+<div class="md-feedback__list">
+<button class="md-feedback__icon md-icon" data-md-value="1" title="This page was helpful" type="submit">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81Z"></path></svg>
+</button>
+<button class="md-feedback__icon md-icon" data-md-value="0" title="This page could be improved" type="submit">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14Z"></path></svg>
+</button>
+</div>
+<div class="md-feedback__note">
+<div data-md-value="1" hidden="">
+              
+              
+                
+              
+              
+                Thanks for your feedback!
+              
+            </div>
+<div data-md-value="0" hidden="">
+              
+              
+                
+              
+              
+                Thanks for your feedback! Help us improve this page by using our <a href="..." rel="noopener" target="_blank">feedback form</a>.
+              
+            </div>
+</div>
+</div>
+</fieldset>
+</form>
+</article>
+</div>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            回到页面顶部
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="页脚" class="md-footer__inner md-grid">
+<a aria-label="上一页: Markdown：无纸化学习必备" class="md-footer__link md-footer__link--prev" href="../markdown/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                上一页
+              </span>
+              Markdown：无纸化学习必备
+            </div>
+</div>
+</a>
+<a aria-label="下一页: MATLAB 讲座" class="md-footer__link md-footer__link--next" href="../matlab/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                下一页
+              </span>
+              MATLAB 讲座
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation", "navigation.top"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+<script src="../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
