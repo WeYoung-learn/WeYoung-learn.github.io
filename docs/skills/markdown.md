@@ -30,10 +30,10 @@ Markdown 是一种轻量级的标记语言。与 Word 等“所见即所得”(W
 
 有关 Markdown 的教程，网络上的资源已经足够丰富且高质量，为此我们不在此处进一步讲解。我们列出它们中的一部分，以供有需要的读者参考：
 
-* [菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
-* [Markdown Guide 官网](https://www.markdownguide.org/)
-* [Typora 官方教程](https://support.typoraio.cn/Quick-Start/)
-* [Markdown with Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
+- [菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
+- [Markdown Guide 官网](https://www.markdownguide.org/)
+- [Typora 官方教程](https://support.typoraio.cn/Quick-Start/)
+- [Markdown with Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
 
 此外，你也可以到本项目的 [GitHub Repo](https://github.com/WeYoung-learn/WeYoung-learn.github.io) 里的 master 分支中下载所有 `.md` 格式的源文件作为案例参考学习。
 
@@ -41,5 +41,5 @@ Markdown 是一种轻量级的标记语言。与 Word 等“所见即所得”(W
 
 如何检验你学习 Markdown 的成果呢？我们给出如下几个方法：
 
-* 尝试用 Markdown 语言写一篇学习笔记，并[给我们投稿](https://cloud.tsinghua.edu.cn/u/d/eb14fa49694d4bbe9773/)。我们会择优发布到网站上，而对其它有瑕疵的稿件，我们也会联系你并指出不足之处。
-* 找一本数学教材或你的数学作业，尝试用 Markdown 打印出其中所有的公式。
+- 尝试用 Markdown 语言写一篇学习笔记，并[给我们投稿](https://cloud.tsinghua.edu.cn/u/d/eb14fa49694d4bbe9773/)。我们会择优发布到网站上，而对其它有瑕疵的稿件，我们也会联系你并指出不足之处。
+- 找一本数学教材或你的数学作业，尝试用 Markdown 打印出其中所有的公式。
