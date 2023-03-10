@@ -4,13 +4,25 @@ repo_url: https://github.com/WeYoung-learn/WeYoung-learn.github.io
 repo_name: WeYoung-learn
 
 theme:
-  name: 'material'
+  name: material
   custom_dir: overrides
   language: zh
   icon:
     logo: material/file-document
   palette:
-    primary: light blue
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      toggle:
+        icon: material/brightness-4
+        name: dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      toggle:
+        icon: material/brightness-7
+        name: light mode
+
   features:
     - navigation.instant
     - navigation.tabs
@@ -36,7 +48,7 @@ plugins:
   - search
 
 extra:
-  analytics: 
+  analytics:
     feedback:
       title: Was this page helpful?
       ratings:
@@ -48,7 +60,7 @@ extra:
         - icon: material/emoticon-sad-outline
           name: This page could be improved
           data: 0
-          note: >- 
+          note: >-
             Thanks for your feedback! Help us improve this page by
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
@@ -59,31 +71,31 @@ extra_javascript:
 
 nav:
   - 首页:
-    - 欢迎来到未央学习: "index.md"
-    - 读者须知: "reader.md"
-    - 加入我们！: "author.md"
+      - 欢迎来到未央学习: "index.md"
+      - 读者须知: "reader.md"
+      - 加入我们！: "author.md"
   - 课程指引:
-    - 介绍: "courses/index.md"
-    - 必修课:
-      - 微积分: "courses/basic/calculus/index.md"
-      - 线性代数: "courses/basic/linear_algebra/index.md"
-      - 程序设计基础: "courses/basic/programming/index.md"
-      - 基础物理学: "courses/basic/fundamental_physics/index.md"
-      - 离散数学: "courses/basic/discrete_mathematics/index.md"
-      - 概率论: "courses/basic/probability/index.md"
-      - 工程图学基础: "courses/basic/fundamentals_of_engineering_graphics/index.md"
-      - 复变函数: "courses/basic/complex_func/index.md"
-      - 数理方程: "courses/basic/mathematical_physics_equations/index.md"
-    - 专业课: "courses/professional/index.md"
+      - 介绍: "courses/index.md"
+      - 必修课:
+          - 微积分: "courses/basic/calculus/index.md"
+          - 线性代数: "courses/basic/linear_algebra/index.md"
+          - 程序设计基础: "courses/basic/programming/index.md"
+          - 基础物理学: "courses/basic/fundamental_physics/index.md"
+          - 离散数学: "courses/basic/discrete_mathematics/index.md"
+          - 概率论: "courses/basic/probability/index.md"
+          - 工程图学基础: "courses/basic/fundamentals_of_engineering_graphics/index.md"
+          - 复变函数: "courses/basic/complex_func/index.md"
+          - 数理方程: "courses/basic/mathematical_physics_equations/index.md"
+      - 专业课: "courses/professional/index.md"
   - 技能培训:
-    - 介绍: "skills/index.md"
-    - mkdocs：搭建一个属于你的小网站: "skills/mkdocs.md"
-    - Markdown：无纸化学习必备: "skills/markdown.md"
-    - EndNote： 你的宝藏文献管理工具: "skills/endnote.md"
-    - MATLAB 讲座: "skills/matlab.md"
-    - LaTeX 讲座: "skills/latex.md"
-    - R语言使用指南: "skills/R.md"
+      - 介绍: "skills/index.md"
+      - mkdocs：搭建一个属于你的小网站: "skills/mkdocs.md"
+      - Markdown：无纸化学习必备: "skills/markdown.md"
+      - EndNote： 你的宝藏文献管理工具: "skills/endnote.md"
+      - MATLAB 讲座: "skills/matlab.md"
+      - LaTeX 讲座: "skills/latex.md"
+      - R语言使用指南: "skills/R.md"
   - 资源链接:
-    - 介绍: "resources/index.md"
+      - 介绍: "resources/index.md"
   - 未央活动:
-    - 介绍: "activities/index.md"
+      - 介绍: "activities/index.md"
