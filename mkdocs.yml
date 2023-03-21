@@ -86,7 +86,11 @@ nav:
           - 工程图学基础: "courses/basic/fundamentals_of_engineering_graphics/index.md"
           - 复变函数: "courses/basic/complex_func/index.md"
           - 数理方程: "courses/basic/mathematical_physics_equations/index.md"
-      - 专业课: "courses/professional/index.md"
+      - 专业课:
+          - 储能技术: "courses/professional/energy_storage_technology/index.md"
+          - 常微分方程: "courses/professional/ordinary_differential_equation/index.md"
+          - 动力建模与仿真: "courses/professional/dynamic_modeling_and_simulation/index.md"
+          - 工程热力学: "courses/professional/engineering_thermodynamics/index.md"
   - 技能培训:
       - 介绍: "skills/index.md"
       - mkdocs：搭建一个属于你的小网站: "skills/mkdocs.md"
