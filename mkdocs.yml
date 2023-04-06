@@ -105,5 +105,6 @@ nav:
       - R语言使用指南: "skills/R.md"
   - 资源链接:
       - 介绍: "resources/index.md"
+      - 乐学资源: "resources/lexue/index.nd"
   - 未央活动:
       - 介绍: "activities/index.md"
