@@ -12,7 +12,7 @@
 ## 其它资源
 
 !!! warning "重要提示"
-请独立思考，不要使用这些工具完成课程作业！！
+    请独立思考，不要使用这些工具完成课程作业！！
 
 - [Integral Calculator](https://www.integral-calculator.com/)：在线的积分计算工具，可以计算出大量定积分/不定积分的**解析解**，并可显示出中间步骤。经测试，它甚至可能比 WolframAlpha 更强大。
 - [WolframAlpha](https://www.wolframalpha.com/)：强大的自然科学学习工具，在线问答系统。
