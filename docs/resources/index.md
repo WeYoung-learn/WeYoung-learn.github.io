@@ -6,6 +6,15 @@
 
 如果你有其它推荐的资源，也欢迎通过提交 GitHub Issue、或直接向云盘发送文件的方式进行投稿。投稿时请**注明资源获取方式**（例如网址）、并**写一两句推荐理由**。
 
+## 各衔接方向资料网盘
+
+- [工物](https://cloud.tsinghua.edu.cn/d/b0d1b1ed2ab74d48bf6e/?p=%2F&mode=list)
+- [土木（老）](https://cloud.tsinghua.edu.cn/d/b6f3b4eee86a42aa8d31/?p=%2F&mode=list)
+- [土木（新）](https://cloud.tsinghua.edu.cn/d/6029603f56f8419ea8f1/)
+- [机械](http://cloud.mechinfo.me/index.php/apps/files/?dir=/&fileid=44)
+- [工工](https://cloud.tsinghua.edu.cn/f/fb2fe159c498440c8a5c/)
+- [软件](https://github.com/Starrah/THSS-CRACKER)
+
 ## 技术教程
 
 - [计算机系学生科协技能引导文档](https://docs.net9.org/)：编程相关技能的入门文档
