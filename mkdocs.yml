@@ -1,6 +1,6 @@
 site_name: 未央学习
 
-repo_url: https://github.com/WeYoung-learn/WeYoung-learn.github.io
+repo_url: https://github.com/chillcicada/WeYoung-learn.github.io
 repo_name: WeYoung-learn
 
 theme:
@@ -65,9 +65,10 @@ extra:
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
 extra_javascript:
-  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/pdfjs-dist@3.10.111/build/pdf.min.js
 
 nav:
   - 首页:
@@ -102,7 +103,8 @@ nav:
       - EndNote： 你的宝藏文献管理工具: "skills/endnote.md"
       - MATLAB 讲座: "skills/matlab.md"
       - LaTeX 讲座: "skills/latex.md"
-      - R语言使用指南: "skills/R.md"
+      - R 语言使用指南: "skills/R.md"
+      - JetBrains 学生认证申请指北: "skills/jetbrains.md"
   - 资源链接:
       - 介绍: "resources/index.md"
       - 乐学资源: "resources/lexue/index.md"
