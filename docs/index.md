@@ -5,13 +5,16 @@ comments: true
 # 未央书院学习资料共享计划2.0
 
 !!! note "最近更新"
+
+    2023/09/11: 添加 pdf 解析与
+
     2023/06/20: 添加部分工科衔接方向的相关资料链接，见“资源链接”板块
 
-    2023/05/09：PDF 在线预览 feature
+    2023/05/09: PDF 在线预览 feature
     
-    2023/04/20：修改格式问题
+    2023/04/20: 修改格式问题
     
-    2023/04/06：更新“乐学”部分资源
+    2023/04/06: 更新“乐学”部分资源
 
 
 亲爱的未小羊：
@@ -30,7 +33,7 @@ comments: true
 
 不要担心，**因为我，在这里等候你多时了**。
 
-<br/>
+<br />
 
 本项目继承自[未央书院学习资料共享计划](https://cloud.tsinghua.edu.cn/d/56275401deeb4670a9d3/)，受到[清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)、[SAST skill docs](https://docs.net9.org/)、[ReadMe 软件学院互助文档](https://ssast-readme.github.io/) 等项目的启发，力图打造一个更全面、**更适合未央书院**的学习交流平台，为同学们的学习发展铺路。
 
