@@ -1,6 +1,6 @@
 site_name: 未央学习
 
-repo_url: https://github.com/WeYoung-learn./WeYoung-learn.github.io
+repo_url: https://github.com/chillcicada/WeYoung-learn.github.io
 repo_name: WeYoung-learn
 
 theme:
@@ -65,7 +65,7 @@ extra:
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js
+  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://cdn.jsdelivr.net/npm/pdfjs-dist@3.10.111/build/pdf.min.js
