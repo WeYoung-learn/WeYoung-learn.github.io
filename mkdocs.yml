@@ -113,7 +113,7 @@ nav:
               - 材料分析与表征: "courses/professional/materials/analys_charac_of_materials/index.md"
               - 工程材料: "courses/professional/materials/engineering_materials/index.md"
           - 计算类:
-              - 计算机原理与应用: "courses/professional/computing/principle_and_applications_of_computer/index.md"
+              - 计算机原理与应用: "courses/professional/computing/princ_and_app_of_computer/index.md"
               - 数据结构与算法分析（工工）: "courses/professional/computing/analysis_of_dsa/index.md"
               - 数值分析: "courses/professional/computing/numerical_analysis/index.md"
               - 动力建模与仿真: "courses/professional/computing/dynamic_modeling_and_simulation/index.md"
