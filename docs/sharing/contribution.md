@@ -3,4 +3,4 @@
 学习资料共享计划是一个专门为未央同学收集学习资料而生的志愿项目，扫码进群，上传资料，获得工
 时！
 报名问卷在下方:
-![](../img/QRcodes/contribution.png)
+![](../img/QRcodes/contribution.png width="50%" height="50%")
