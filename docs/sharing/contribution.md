@@ -4,5 +4,4 @@
 
 报名问卷在下方:
   
-
 ![报名问卷二维码](../img/QRcodes/contribution.png)
