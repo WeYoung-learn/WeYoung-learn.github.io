@@ -1,4 +1,4 @@
-# 高代选讲(英)
+# 高等线性代数选讲(英)
 
 ## [网盘链接](https://cloud.tsinghua.edu.cn/d/606b8e84e72e4af0a603/)
 

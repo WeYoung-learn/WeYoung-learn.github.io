@@ -78,51 +78,59 @@ nav:
       - 介绍: "courses/index.md"
       - 基础课:
           - 数学类: 
-              - 微积分: "courses/basic/calculus/index.md"
-              - 线性代数: "courses/basic/linear_algebra/index.md"
-              - 离散数学: "courses/basic/discrete_mathematics/index.md"
-              - 复变函数: "courses/basic/complex_func/index.md"
-              - 数理方程: "courses/basic/mathematical_physics_equations/index.md"
-              - 概率论: "courses/basic/probability/index.md"
+              - 微积分: "courses/basic/maths/calculus/index.md"
+              - 线性代数: "courses/basic/maths/linear_algebra/index.md"
+              - 复变函数: "courses/basic/maths/complex_func/index.md"
+              - 数学物理方程: "courses/basic/maths/mathematical_physics_equations/index.md"
+              - 概率论: "courses/basic/maths/probability/index.md"
           - 物理类: 
-              - 基础物理学: "courses/basic/fundamental_physics/index.md"
-              - 量子力学(1): " "
+              - 基础物理学: "courses/basic/physics/fundamental_physics/index.md"
+              - 量子力学(1): "courses/basic/physics/quantum_mechanics/index.md"
           - 实验类:
-              - 物理实验: ""
+              - 物理实验: "courses/basic/labs/lab_of_physics/index.md"
           - 思政类:
-              - 马克思主义基本原理: ""
+              - 马克思主义基本原理: "courses/basic/politics/basic_principles_of_marxism/index.md"
           - 化生类:
-              - 大学化学B: ""
-              - 物理化学B: ""
-          - 工程基础课程:
-              - 程序设计基础: "courses/basic/programming/index.md"
-              - 工程图学基础: "courses/basic/fundamentals_of_engineering_graphics/index.md"
+              - 大学化学B: "courses/basic/chem_bio/university_chemistry_b/index.md"
+              - 物理化学B: "courses/basic/chem_bio/physical_chemistry_b/index.md"
+          - 工程/信息基础课程:
+              - 离散数学: "courses/basic/engineer_info/discrete_mathematics/index.md"
+              - 程序设计基础: "courses/basic/engineer_info/programming/index.md"
+              - 工程图学基础: "courses/basic/engineer_info/fundamentals_of_engineering_graphics/index.md"
       - 专业课:
           - 数学类: 
-              - 常微分方程: "courses/professional/ordinary_differential_equation/index.md"
-              - 高等线性代数选讲: "courses/professional/advanced_algebra_selected/index.md"
+              - 常微分方程: "courses/professional/maths/ordinary_differential_equation/index.md"
+              - 高等线性代数选讲（英）: "courses/professional/maths/advanced_algebra_selected/index.md"
+              - 基础拓扑学: "courses/professional/maths/fundamental_topology/index.md"
           - 物理类: 
-              - 统计力学: "courses/professional/statistical_mechanics/index.md"
+              - 统计力学: "courses/professional/physics/statistical_mechanics/index.md"
           - 电类:
-              - 电路原理（电路原理C）: ""
-              - 电工与电子技术: ""
-              - 电子技术基础: ""
+              - 电路原理: courses/professional/electricity/principles_of_circuits/index.md"
+              - 电工与电子技术: "courses/professional/electricity/electrical_and_electronic_technology/index.md"
+              - 电力电子技术: "courses/professional/electricity/power_electronics/index.md"
           - 材料类:
-              - 材料科学基础: ""
-              - 材料分析与表征: ""
-              - 工程材料: ""
+              - 材料科学基础: "courses/professional/materials/fundamentals_of_materials_science/index.md"
+              - 材料分析与表征: "courses/professional/materials/analysis_and_characterization_of_materials/index.md"
+              - 工程材料: "courses/professional/materials/engineering_materials/index.md"
           - 计算类:
-              - 计算机原理与应用: ""
-              - 数值分析: ""
-              - 动力建模与仿真: "courses/professional/dynamic_modeling_and_simulation/index.md"
+              - 计算机原理与应用: "courses/professional/computing/principle_and_applications_of_computer/index.md"
+              - 数据结构与算法分析（工工）: "courses/professional/computing/analysis_of_dsa/index.md"
+              - 数值分析: "courses/professional/computing/numerical_analysis/index.md"
+              - 动力建模与仿真: "courses/professional/computing/dynamic_modeling_and_simulation/index.md"
           - 能源类:
-              - 储能技术: "courses/professional/energy_storage_technology/index.md"
-              - 工程热力学: "courses/professional/engineering_thermodynamics/index.md"
+              - 储能技术: "courses/professional/energy/energy_storage_technology/index.md"
+              - 工程热力学: "courses/professional/energy/engineering_thermodynamics/index.md"
+              - 能源利用中的物理化学（英）: "courses/professional/energy/physical_chemistry_in_energy/index.md"
+              - 热工参数测量与处理: "courses/professional/energy/thermal_measurement/index.md"
+              - 燃烧理论: "courses/professional/energy/combustion_theory/index.md"
+              - 先进燃气轮机理论与实验技术: "courses/professional/energy/gas_turbine_theory/index.md"
+          - 机械类: 
+              - 机械设计基础 B(3): "courses/professional/mechanics/mechnical_design_b3/index.md"
           - 土木类:
-              - 工程经济学: "courses/professional/engineering_economics/index.md"
+              - 工程经济学: "courses/professional/civil/engineering_economics/index.md"
       - 通识选修课:
-          - 经济学原理: "courses/professional/principles_of_economics/index.md"
-          - 《庄子》导读: ""
+          - 经济学原理: "courses/general/principles_of_economics/index.md"
+          - 《庄子》导读: "courses/general/zhuangzi_guide/index.md"
   - 技能培训:
       - 介绍: "skills/index.md"
       - mkdocs：搭建一个属于你的小网站: "skills/mkdocs.md"
