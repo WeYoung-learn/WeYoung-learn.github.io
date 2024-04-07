@@ -85,7 +85,7 @@ nav:
               - 数理方程: "courses/basic/mathematical_physics_equations/index.md"
               - 概率论: "courses/basic/probability/index.md"
           - 物理类: 
-              - 基础物理学(1,2,3): "courses/basic/fundamental_physics/index.md"
+              - 基础物理学: "courses/basic/fundamental_physics/index.md"
               - 量子力学(1): " "
           - 实验类:
               - 物理实验: ""
@@ -135,7 +135,7 @@ nav:
       - 介绍: "resources/index.md"
       - 乐学资源: "resources/lexue/index.md"
   - 资源共享:
-      - 旧书传递: “sharing/books.md"
+      - 旧书传递: "sharing/books.md"
       - 学习资料共享计划: "sharing/contribution.md"
   - 未央活动:
       - 介绍: "activities/index.md"
