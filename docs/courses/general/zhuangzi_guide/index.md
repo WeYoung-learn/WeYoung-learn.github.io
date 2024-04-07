@@ -1,4 +1,4 @@
-# 《庄子导读》
+# 《庄子》导读
 
 ## [网盘链接](https://cloud.tsinghua.edu.cn/d/9b856c4a7e994accb068/)
 
