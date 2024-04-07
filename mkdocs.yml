@@ -109,7 +109,7 @@ nav:
               - 电工与电子技术: "courses/professional/electricity/electrical_and_electronic_technology/index.md"
               - 电力电子技术: "courses/professional/electricity/power_electronics/index.md"
           - 材料类:
-              - 材料科学基础: "courses/professional/materials/fundamentals_of_materials_science/index.md"
+              - 材料科学基础: "courses/professional/materials/funda_of_materials_science/index.md"
               - 材料分析与表征: "courses/professional/materials/analys_charac_of_materials/index.md"
               - 工程材料: "courses/professional/materials/engineering_materials/index.md"
           - 计算类:
