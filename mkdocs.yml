@@ -86,7 +86,7 @@ nav:
               - 概率论: "courses/basic/probability/index.md"
           - 物理类: 
               - 基础物理学(1,2,3): "courses/basic/fundamental_physics/index.md"
-              - 量子力学(1): ""
+              - 量子力学(1): " "
           - 实验类:
               - 物理实验: ""
           - 思政类:
