@@ -91,12 +91,13 @@ nav:
           - 思政类:
               - 马克思主义基本原理: "courses/basic/politics/basic_principles_of_marxism/index.md"
           - 化生类:
+              - 现代生物学导论: "courses/basic/chem_bio/intro_to_modern_biology/index.md"
               - 大学化学B: "courses/basic/chem_bio/university_chemistry_b/index.md"
               - 物理化学B: "courses/basic/chem_bio/physical_chemistry_b/index.md"
           - 工程/信息基础课程:
               - 离散数学: "courses/basic/engineer_info/discrete_mathematics/index.md"
               - 程序设计基础: "courses/basic/engineer_info/programming/index.md"
-              - 工程图学基础: "courses/basic/engineer_info/fundamentals_of_engineering_graphics/index.md"
+              - 工程图学基础/机械设计基础(1): "courses/basic/engineer_info/fundamentals_of_engineering_graphics/index.md"
       - 专业课:
           - 数学类: 
               - 常微分方程: "courses/professional/maths/ordinary_differential_equation/index.md"
