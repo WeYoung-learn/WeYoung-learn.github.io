@@ -96,7 +96,7 @@ nav:
           - 工程/信息基础课程:
               - 离散数学: "courses/basic/engineer_info/discrete_mathematics/index.md"
               - 程序设计基础: "courses/basic/engineer_info/programming/index.md"
-              - 工程图学基础: "courses/basic/engineer_info/fundamentals_of_engineering_graphics/index.md"
+              - 工程图学基础/机械设计基础(1): "courses/basic/engineer_info/fundamentals_of_engineering_graphics/index.md"
       - 专业课:
           - 数学类: 
               - 常微分方程: "courses/professional/maths/ordinary_differential_equation/index.md"

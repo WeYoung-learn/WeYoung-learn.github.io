@@ -2,7 +2,7 @@
 
 ## 基础物理学（1）
 
-### [网盘链接](https://cloud.tsinghua.edu.cn/d/fd46a89e9aff470b8edd/)
+### [网盘链接](https://cloud.tsinghua.edu.cn/d/1ba52a3e5fc8448398e7/)
 
 网盘中包括了基础物理学（1）的:
 
@@ -14,7 +14,7 @@
 
 ## 基础物理学（2）
 
-### [网盘链接](https://cloud.tsinghua.edu.cn/d/2e13e5bf352a440680bb/)
+### [网盘链接](https://cloud.tsinghua.edu.cn/d/aa1e0646c8fe48df8b5f/)
 
 网盘中包括了基础物理学（2）的:
 
@@ -23,7 +23,7 @@
 
 ## 基础物理学（3）
 
-### [网盘链接](https://cloud.tsinghua.edu.cn/d/70a48a566a564e249cd8/)
+### [网盘链接](https://cloud.tsinghua.edu.cn/d/1f53cc7cad624e27b955/)
 
 网盘中包括了基础物理学（3）的:
 
