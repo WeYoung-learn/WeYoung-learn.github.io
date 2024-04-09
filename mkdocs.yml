@@ -91,6 +91,7 @@ nav:
           - 思政类:
               - 马克思主义基本原理: "courses/basic/politics/basic_principles_of_marxism/index.md"
           - 化生类:
+              - 现代生物学导论: "courses/basic/chem_bio/intro_to_modern_biology/index.md"
               - 大学化学B: "courses/basic/chem_bio/university_chemistry_b/index.md"
               - 物理化学B: "courses/basic/chem_bio/physical_chemistry_b/index.md"
           - 工程/信息基础课程:
