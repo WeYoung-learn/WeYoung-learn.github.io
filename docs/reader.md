@@ -35,3 +35,4 @@
 | ------ | -------------------------------- | ------------ |
 | 刘桐华 | liuth21@mails.tsinghua.edu.cn    | underice-lth |
 | 沈之洋 | shenzhiy21@mails.tsinghua.edu.cn | ZysTheDog    |
+| 顾一马 | gu-ym23@mails.tsinghua.edu.cn    | guyima9018    |
