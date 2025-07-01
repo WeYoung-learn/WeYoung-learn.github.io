@@ -74,6 +74,15 @@ nav:
       - 欢迎来到未央学习: "index.md"
       - 读者须知: "reader.md"
       - 加入我们！: "author.md"
+  - 选课指南:
+      - 介绍: "course_selection/index.md"
+      - 思政篇: "course_selection/politics/index.md"
+      - 化生篇: "course_selection/chem_bio/index.md"
+      - 数理篇: "course_selection/math_phys/index.md"
+      - 工信篇: "course_selection/engineer_info/index.md"
+      - 英语篇: "course_selection/english/index.md"
+      - 体育篇: "course_selection/pe/index.md"
+      - 通识篇: "course_selection/general/index.md"
   - 课程指引:
       - 介绍: "courses/index.md"
       - 基础课:
@@ -111,19 +120,12 @@ nav:
               - 电力电子技术: "courses/professional/electricity/power_electronics/index.md"
           - 材料类:
               - 材料科学基础: "courses/professional/materials/funda_of_materials_science/index.md"
-              - 材料分析与表征: "courses/professional/materials/analys_charac_of_materials/index.md"
               - 工程材料: "courses/professional/materials/engineering_materials/index.md"
           - 计算类:
               - 计算机原理与应用: "courses/professional/computing/princ_and_app_of_computer/index.md"
-              - 数据结构与算法分析（工工）: "courses/professional/computing/analysis_of_dsa/index.md"
-              - 数值分析: "courses/professional/computing/numerical_analysis/index.md"
               - 动力建模与仿真: "courses/professional/computing/dynamic_modeling_and_simulation/index.md"
           - 能源类:
               - 储能技术: "courses/professional/energy/energy_storage_technology/index.md"
-              - 工程热力学: "courses/professional/energy/engineering_thermodynamics/index.md"
-              - 能源利用中的物理化学（英）: "courses/professional/energy/physical_chemistry_in_energy/index.md"
-              - 热工参数测量与处理: "courses/professional/energy/thermal_measurement/index.md"
-              - 燃烧理论: "courses/professional/energy/combustion_theory/index.md"
               - 先进燃气轮机理论与实验技术: "courses/professional/energy/gas_turbine_theory/index.md"
           - 机械类: 
               - 机械设计基础 B(3): "courses/professional/mechanics/mechnical_design_b3/index.md"

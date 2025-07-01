@@ -10,6 +10,7 @@
 - 技能培训：/docs/skills
 - 资源链接：/docs/resources
 - 未央活动：/docs/activities
+- 选课指南与推荐：/docs/course_selection
 
 ### 二、文件下载
 
