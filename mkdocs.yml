@@ -29,7 +29,11 @@ theme:
     - navigation
     - navigation.top
 
+
 markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
   - admonition
@@ -39,7 +43,6 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - attr_list
   - md_in_html
 
@@ -105,6 +108,7 @@ nav:
               - 物理化学B: "courses/basic/chem_bio/physical_chemistry_b/index.md"
           - 工程/信息基础课程:
               - 离散数学: "courses/basic/engineer_info/discrete_mathematics/index.md"
+              - 离散数学(2): "courses/basic/engineer_info/discrete_mathematics_2/index.md"
               - 程序设计基础: "courses/basic/engineer_info/programming/index.md"
               - 工程图学基础/机械设计基础(1): "courses/basic/engineer_info/fundamentals_of_engineering_graphics/index.md"
       - 专业课:
