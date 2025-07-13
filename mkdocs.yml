@@ -36,6 +36,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
+      block_syntax: 'fenced'
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -128,6 +129,7 @@ nav:
           - 计算类:
               - 计算机原理与应用: "courses/professional/computing/princ_and_app_of_computer/index.md"
               - 动力建模与仿真: "courses/professional/computing/dynamic_modeling_and_simulation/index.md"
+              - 形式语言与自动机: "courses/professional/computing/formal_language/index.md"
           - 能源类:
               - 储能技术: "courses/professional/energy/energy_storage_technology/index.md"
               - 先进燃气轮机理论与实验技术: "courses/professional/energy/gas_turbine_theory/index.md"
