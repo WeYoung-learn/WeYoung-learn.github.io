@@ -110,15 +110,20 @@ nav:
           - 工程/信息基础课程:
               - 离散数学: "courses/basic/engineer_info/discrete_mathematics/index.md"
               - 离散数学(2): "courses/basic/engineer_info/discrete_mathematics_2/index.md"
-              - 程序设计基础: "courses/basic/engineer_info/programming/index.md"
+              - 程序设计基础:
+                - 主页: "courses/basic/engineer_info/programming/index.md"
+                - Python 程序设计笔记: "courses/basic/engineer_info/programming/note_py.md"
+                - C++ 程序设计笔记: "courses/basic/engineer_info/programming/note_cpp.md"
               - 工程图学基础/机械设计基础(1): "courses/basic/engineer_info/fundamentals_of_engineering_graphics/index.md"
       - 专业课:
           - 数学类: 
               - 常微分方程: "courses/professional/maths/ordinary_differential_equation/index.md"
               - 高等线性代数选讲（英）: "courses/professional/maths/advanced_algebra_selected/index.md"
               - 基础拓扑学: "courses/professional/maths/fundamental_topology/index.md"
+              - 高等微积分: "docs/courses/professional/maths/advanced_calculus/index.md"
           - 物理类: 
               - 统计力学: "courses/professional/physics/statistical_mechanics/index.md"
+              - 电动力学: "courses/professional/physics/electrodynamics/index.md"
           - 电类:
               - 电路原理: "courses/professional/electricity/principles_of_circuits/index.md"
               - 电工与电子技术: "courses/professional/electricity/electrical_and_electronic_technology/index.md"
