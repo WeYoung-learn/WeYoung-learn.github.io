@@ -14,9 +14,9 @@ $$
 
 $$
 \begin{aligned}
-\cos (n \theta) &= \frac{e^{i n \theta} + e^{- i n \theta}}{2} = \frac{1}{2} ((\cos \theta + i \sin \theta)^{n} + (\cos \theta - i \sin \theta)^{n}) \\
-&= \frac{1}{2} (\sum_{k = 0}^{n} i^{k} C_{n}^{k} \cos^{n - k} \theta \sin^{k} \theta + \sum_{k = 0}^{n} (-i)^{k} C_{n}^{k} \cos^{n-k} \theta \sin^{k} \theta) \\
-&= \frac{1}{2} (2 \sum_{k = 0}^{[\frac{n}{2}]} i^{2k} C_{n}^{2k} \cos^{n-2k} \sin^{2k} \theta) \\
+\cos (n \theta) &= \frac{e^{i n \theta} + e^{- i n \theta}}{2} = \frac{1}{2} ((\cos \theta + i \sin \theta)^{n} + (\cos \theta - i \sin \theta)^{n}) \\\\
+&= \frac{1}{2} (\sum_{k = 0}^{n} i^{k} C_{n}^{k} \cos^{n - k} \theta \sin^{k} \theta + \sum_{k = 0}^{n} (-i)^{k} C_{n}^{k} \cos^{n-k} \theta \sin^{k} \theta) \\\\
+&= \frac{1}{2} (2 \sum_{k = 0}^{[\frac{n}{2}]} i^{2k} C_{n}^{2k} \cos^{n-2k} \sin^{2k} \theta) \\\\
 &= \sum_{k = 0}^{[\frac{n}{2}]} i^{2k} C_{n}^{2k} \cos^{n-2k} \theta \sin^{2k} \theta
 \end{aligned}
 $$
@@ -58,9 +58,11 @@ $$
 $$
 \begin{aligned}
 \sin^{n} \theta &= \left( \frac{e^{i  \theta} - e^{- i \theta}}{2 i} \right)^{n}  = \sum_{k = 0}^{[\frac{n + 1}{2}]} C_{n}^{k} \frac{(-1)^{k} e^{i (n - 2k) \theta} + (-1)^{n - k} e^{- i (n - 2k) \theta}}{(2i)^{n}} \\\\
-
-&= 
-\begin{cases} \frac{1}{(2i)^{n - 1}} \sum_{k = 0}^{[\frac{n}{2}]} (-1)^{k} C_{n}^{k} \sin ((n - 2k) \theta) & (\text{n为奇数}) \\\\ \frac{1}{(2i)^{n}} \sum_{k = 0}^{[\frac{n}{2}]} 2 (-1)^{k} C_{n}^{k} \cos ((n - 2k) \theta) & (\text{n为偶数}) \end{cases}
+&=
+\begin{cases} 
+\frac{1}{(2i)^{n - 1}} \sum_{k = 0}^{[\frac{n}{2}]} (-1)^{k} C_{n}^{k} \sin ((n - 2k) \theta) & (\text{n为奇数}) \\\\ 
+\frac{1}{(2i)^{n}} \sum_{k = 0}^{[\frac{n}{2}]} 2 (-1)^{k} C_{n}^{k} \cos ((n - 2k) \theta) & (\text{n为偶数}) 
+\end{cases}
 \end{aligned}
 $$
 
@@ -83,11 +85,11 @@ $$
 
 考虑沿着径向的逼近方式：
 $$
-\lim_{\Delta z \to 0} \frac{\Delta w}{\Delta z} = \lim_{\Delta r \to 0} \frac{\Delta u + i \Delta v}{e^{i \theta} \Delta r} 
-
-=\frac{\partial u}{\partial r} \cos \theta + \frac{\partial v}{\partial r} \sin \theta + i (\frac{\partial v}{\partial r} \cos \theta - \frac{\partial v}{\partial r} \sin \theta)
+\lim_{\Delta z \to 0} \frac{\Delta w}{\Delta z} = \lim_{\Delta r \to 0} \frac{\Delta u + i \Delta v}{e^{i \theta} \Delta r} =\frac{\partial u}{\partial r} \cos \theta + \frac{\partial v}{\partial r} \sin \theta + i (\frac{\partial v}{\partial r} \cos \theta - \frac{\partial v}{\partial r} \sin \theta)
 $$
+
 再考虑沿着角向的逼近方式：
+
 $$
 \lim_{\Delta z \to 0} \frac{\Delta w}{\Delta z} = \lim_{\Delta \theta \to 0} \frac{\Delta u + i \Delta v}{r (i \cos \theta - \sin \theta) \Delta \theta} = \frac{1}{r} ((\frac{\partial v}{\partial \theta} \cos \theta - \frac{\partial u}{\partial \theta} \sin \theta) - i (\frac{\partial u }{\partial \theta} \cos \theta + \frac{\partial v}{\partial \theta} \sin \theta))
 $$
@@ -96,7 +98,6 @@ $$
 $$
 \begin{aligned}
 \frac{\partial u}{\partial r} \cos \theta + \frac{\partial v}{\partial r} \sin \theta &=  \frac{1}{r} (\frac{\partial v}{\partial \theta} \cos \theta - \frac{\partial u}{\partial \theta} \sin \theta) \\\\
-
 \frac{\partial v}{\partial r} \cos \theta - \frac{\partial v}{\partial r} \sin \theta &= - \frac{1}{r} (\frac{\partial u }{\partial \theta} \cos \theta + \frac{\partial v}{\partial \theta} \sin \theta)
 \end{aligned}
 $$

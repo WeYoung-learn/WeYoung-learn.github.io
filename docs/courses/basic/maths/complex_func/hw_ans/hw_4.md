@@ -106,9 +106,9 @@ $$
 f(\zeta) = \frac{1}{2\pi} \int_0^{2\pi} \frac{R^2 - r^2}{R^2 - 2Rr \cos(\theta - \phi) + r^2} f\left(R \text{e}^{\text{i}\phi}\right) \text{d} \phi
 $$
 证明：设$z = R e^{i \phi}$
+
 $$
 \begin{aligned}
-
 &\frac{1}{2\pi} \int_0^{2\pi} \frac{R^2 - r^2}{R^2 - 2Rr \cos(\theta - \phi) + r^2} f\left(R \text{e}^{\text{i}\phi}\right) \text{d} \phi  \\\\
 =& 
 \frac{1}{2 \pi} \oint_{|z| = R} \frac{R^{2} - r^{2}}{|\zeta - z|^{2}} f (\zeta) \frac{1}{i z} d z \\\\
@@ -118,6 +118,5 @@ $$
 i \frac{R^{2} - r^{2}}{2 \pi} \oint_{|z| = R} \frac{ \frac{\zeta}{r^{2}} f (z)}{(z- \zeta)(z - \frac{R^{2}}{r^{2}} \zeta)} dz \\\\ 
 =&
 i \frac{R^{2} - r^{2}}{2 \pi} \frac{\zeta}{r^{2}} \left( 2 \pi i \frac{f (\zeta)}{\zeta (1 - \frac{R^{2}}{r^{2}})} \right)  = f (\zeta)
-
 \end{aligned}
 $$

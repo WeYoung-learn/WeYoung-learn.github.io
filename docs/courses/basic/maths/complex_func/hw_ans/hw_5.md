@@ -153,17 +153,14 @@ $$
 \end{aligned}
 $$
 由比较定理，原级数绝对收敛，可以进行裂项
+
 $$
 \begin{aligned}
-
 &\sum_{n=1}^{\infty} \frac{z^{n-1}}{\left(1-z^n\right)\left(1-z^{n+1}\right)} = \sum_{n=1}^{\infty} \frac{z^n - z^{n+1}}{\left(1-z^n\right)\left(1-z^{n+1}\right) z(1-z)} \\\\
-&= 
-\sum_{n = 1}^{\infty} \frac{1}{z (1 - z)} \left(\frac{1}{1 - z^{n}} - \frac{1}{1 - z^{n + 1}} \right) \\\\ 
-&= 
-\begin{cases} 
+&= \sum_{n = 1}^{\infty} \frac{1}{z (1 - z)} \left(\frac{1}{1 - z^{n}} - \frac{1}{1 - z^{n + 1}} \right) \\\\ 
+&= \begin{cases} 
 \frac{1}{z (1 - z)^{2}} \qquad (|z| > 1) \\\\
 \frac{1}{(1 - z)^{2}} \qquad (|z| < 1)
 \end{cases}
-
 \end{aligned}
 $$

@@ -80,7 +80,7 @@ f (z) = 1 + 1 + 1 + \cdots
 $$
 所以 $\forall n \in \mathbb{N}$
 $$
-\exist k \in \mathbb{N}, s.t. \sum_{i = 0}^{k} z^{2^{i}} > n
+\exists k \in \mathbb{N}, s.t. \sum_{i = 0}^{k} z^{2^{i}} > n
 $$
 所以该级数在$z = 1$ 处发散，$z = 1$ 是 $f(z)$ 的奇点
 
@@ -112,7 +112,7 @@ $$
 $$
 均为奇点，所以
 $$
-\forall \theta \in [0, 2 \pi) , \forall \epsilon > 0, \exist k, s.t. \frac{1}{2^{k}} < \epsilon
+\forall \theta \in [0, 2 \pi) , \forall \epsilon > 0, \exists k, s.t. \frac{1}{2^{k}} < \epsilon
 $$
 此时用将 $[0, 2 \pi)$ 划分为 $2^{k}$ 个小格，对于 $\theta$ 所在的那个小格
 $$
