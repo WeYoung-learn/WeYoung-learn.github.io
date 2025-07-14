@@ -28,6 +28,8 @@ theme:
     - navigation.tabs
     - navigation
     - navigation.top
+    - navigation.sections 
+    - navigation.tracking
 
 
 markdown_extensions:
@@ -69,9 +71,14 @@ extra:
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
 extra_javascript:
-  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - custom_js/mathjax.js
+
+extra_css:
+  - custom_css/extra.css
+
+  
 
 nav:
   - 首页:
@@ -93,7 +100,21 @@ nav:
           - 数学类: 
               - 微积分: "courses/basic/maths/calculus/index.md"
               - 线性代数: "courses/basic/maths/linear_algebra/index.md"
-              - 复变函数: "courses/basic/maths/complex_func/index.md"
+              - 复变函数:
+                  - 介绍: "courses/basic/maths/complex_func/index.md"
+                  - 作业答案:
+                    - 主页: "courses/basic/maths/complex_func/hw_ans/index.md"
+                    - hw_1: "courses/basic/maths/complex_func/hw_ans/hw_1.md"
+                    - hw_2: "courses/basic/maths/complex_func/hw_ans/hw_2.md"
+                    - hw_3: "courses/basic/maths/complex_func/hw_ans/hw_3.md"
+                    - hw_4: "courses/basic/maths/complex_func/hw_ans/hw_4.md"
+                    - hw_5: "courses/basic/maths/complex_func/hw_ans/hw_5.md"
+                    - hw_6: "courses/basic/maths/complex_func/hw_ans/hw_6.md"
+                    - hw_7: "courses/basic/maths/complex_func/hw_ans/hw_7.md"
+                    - hw_8: "courses/basic/maths/complex_func/hw_ans/hw_8.md"
+                    - hw_9: "courses/basic/maths/complex_func/hw_ans/hw_9.md"
+                    - hw_10: "courses/basic/maths/complex_func/hw_ans/hw_10.md"
+                    - hw_11: "courses/basic/maths/complex_func/hw_ans/hw_11.md"
               - 数学物理方程: "courses/basic/maths/mathematical_physics_equations/index.md"
               - 概率论: "courses/basic/maths/probability/index.md"
           - 物理类: 
@@ -120,7 +141,7 @@ nav:
               - 常微分方程: "courses/professional/maths/ordinary_differential_equation/index.md"
               - 高等线性代数选讲（英）: "courses/professional/maths/advanced_algebra_selected/index.md"
               - 基础拓扑学: "courses/professional/maths/fundamental_topology/index.md"
-              - 高等微积分: "docs/courses/professional/maths/advanced_calculus/index.md"
+              - 高等微积分: "courses/professional/maths/advanced_calculus/index.md"
           - 物理类: 
               - 统计力学: "courses/professional/physics/statistical_mechanics/index.md"
               - 电动力学: "courses/professional/physics/electrodynamics/index.md"
