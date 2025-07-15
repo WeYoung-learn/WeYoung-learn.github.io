@@ -161,7 +161,7 @@ f(x) = d(x_0, x), \quad \forall x \in \mathbb{R}^n.
 $$
 证明：$f$ 是连续函数。
 
- $\forall \epsilon > 0, \exist \delta = \epsilon, s.t. \forall d (x_{1}, x) < \delta, |d(x_{0},x) -d (x_{0}, x_{1})| \leq d (x_{1}, x) < \delta = \epsilon$
+ $\forall \epsilon > 0, \exists \delta = \epsilon, s.t. \forall d (x_{1}, x) < \delta, |d(x_{0},x) -d (x_{0}, x_{1})| \leq d (x_{1}, x) < \delta = \epsilon$
 
 所以$f$ 是连续函数。
 
@@ -174,12 +174,12 @@ $$
 
 证明：由于$f, g : D \to \mathbb{R}$ 是连续函数，由连续函数的定义
 $$
-\forall \epsilon > 0, \exist \delta_{1}, \delta_{2} , s.t. \forall d (x_{0}, x) < \delta_{1}, |f(x) -f (x_{0})| < \epsilon ; \forall d (x_{0}, x) < \delta_{2}, |g(x) - g (x_{0})| < \epsilon
+\forall \epsilon > 0, \exists \delta_{1}, \delta_{2} , s.t. \forall d (x_{0}, x) < \delta_{1}, |f(x) -f (x_{0})| < \epsilon ; \forall d (x_{0}, x) < \delta_{2}, |g(x) - g (x_{0})| < \epsilon
 $$
 
 $$
 \begin{aligned}
-\therefore \,\, \forall \epsilon > 0, \exist \delta &= \min \{ \delta_{1}, \delta_{2} \}, s.t. \forall d (x_{0}, x) < \delta, |h(x) - h(x_{0})| \leq \max \{ |f(x) - h(x_{0})|, |g(x) - h(x_{0})| \} \\\\
+\therefore \,\, \forall \epsilon > 0, \exists \delta &= \min \{ \delta_{1}, \delta_{2} \}, s.t. \forall d (x_{0}, x) < \delta, |h(x) - h(x_{0})| \leq \max \{ |f(x) - h(x_{0})|, |g(x) - h(x_{0})| \} \\\\
 \leq \max \{ |f(x) - f(x_{0})|, |g(x) - g(x_{0})| \} < \epsilon
 \end{aligned}
 $$

@@ -23,7 +23,7 @@ $$
 带入$(x,y) = (1,1)$，$z = 1$
 
 $$
-3 + 3 \left. \frac{\partial z}{\partial x} \right\|_{(1,1)} + 1 + \left. \frac{\partial z}{\partial x} \right\|_{(1,1)} = 0
+3 + 3 \left. \frac{\partial z}{\partial x} \right\|\_{(1,1)} + 1 + \left. \frac{\partial z}{\partial x} \right\|\_{(1,1)} = 0
 $$
 
 所以
@@ -39,7 +39,7 @@ $$
 $$
 所以
 $$
-3 + 3 \left. \dfrac{\partial z}{\partial y} \right|_{(1,1)} + 1 + \left. \dfrac{\partial z}{\partial y} \right|_{(1,1)} = 0
+3 + 3 \left. \dfrac{\partial z}{\partial y} \right|\_{(1,1)} + 1 + \left. \dfrac{\partial z}{\partial y} \right|\_{(1,1)} = 0
 $$
 
 $$
@@ -84,7 +84,7 @@ $$
 (1) 求导函数 $h'(x)$.
 
 $$
-h’ (x) = f’_{1} + f’_{2} \frac{\partial y}{\partial x}
+h’ (x) = f_{1}' f_{2}' \frac{\partial y}{\partial x}
 $$
 
 根据隐函数的性质
@@ -102,8 +102,8 @@ $$
 
 $$
 \begin{aligned}
-h’’ (x) &= \frac{\partial}{\partial x} \left(f’_{1} (x, y (x)) + f’_{2} (x, y (x)) \frac{\partial y (x)}{\partial x} \right) \\\\
-&= f’’_{11} + f’’_{21} \frac{\partial y}{\partial x} + f’’_{12} \frac{\partial y}{\partial x} + f’’_{22} (\frac{\partial y}{\partial x})^{2} + f’_{2} \frac{\partial^{2} y}{\partial x^{2}}
+h(x)'' &= \frac{\partial}{\partial x} \left(f_{1}' (x, y (x)) + f_{2}' (x, y (x)) \frac{\partial y (x)}{\partial x} \right) \\\\
+&= f_{11}'' + f_{21}'' \frac{\partial y}{\partial x} + f_{12}'' \frac{\partial y}{\partial x} + f_{22}'' (\frac{\partial y}{\partial x})^{2} + f_{2}' \frac{\partial^{2} y}{\partial x^{2}}
 \end{aligned}
 $$
 
@@ -111,7 +111,7 @@ $$
 
 得到
 $$
-h'' (x) = f’’_{11} - 2  f’’_{21} \frac{g_{x}}{g_{y}} + f’’_{22} (\frac{g_{x}}{g_{y}})^{2} + f’_{2} \frac{g_{x} g_{xy} - g_{xx} g_{y}}{g_{y}^{2}}
+h (x)'' = f_{11}'' - 2  f_{21}'' \frac{g_{x}}{g_{y}} + f_{22}'' (\frac{g_{x}}{g_{y}})^{2} + f_{2}' \frac{g_{x} g_{xy} - g_{xx} g_{y}}{g_{y}^{2}}
 $$
 
 ### 3 

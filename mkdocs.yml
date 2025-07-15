@@ -38,7 +38,6 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
-      block_syntax: 'fenced'
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -73,7 +72,7 @@ extra:
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - custom_js/mathjax.js
+  #- custom_js/mathjax.js
 
 extra_css:
   - custom_css/extra.css
@@ -155,7 +154,22 @@ nav:
                 - hw_10: "courses/professional/maths/advanced_calculus/ans/hw_10.md"
           - 物理类: 
               - 统计力学: "courses/professional/physics/statistical_mechanics/index.md"
-              - 电动力学: "courses/professional/physics/electrodynamics/index.md"
+              - 电动力学: 
+                 - 介绍: "courses/professional/physics/electrodynamics/index.md"
+                 - hw_2: "courses/professional/physics/electrodynamics/hw_ans/hw_2.md"
+                 - hw_3: "courses/professional/physics/electrodynamics/hw_ans/hw_3.md"
+                 - hw_4: "courses/professional/physics/electrodynamics/hw_ans/hw_4.md"
+                 - hw_5: "courses/professional/physics/electrodynamics/hw_ans/hw_5.md"
+                 - hw_6: "courses/professional/physics/electrodynamics/hw_ans/hw_6.md"
+                 - hw_7: "courses/professional/physics/electrodynamics/hw_ans/hw_7.md"
+                 - hw_8: "courses/professional/physics/electrodynamics/hw_ans/hw_8.md"
+                 - hw_9: "courses/professional/physics/electrodynamics/hw_ans/hw_9.md"
+                 - hw_10: "courses/professional/physics/electrodynamics/hw_ans/hw_10.md"
+                 - hw_11: "courses/professional/physics/electrodynamics/hw_ans/hw_11.md"
+                 - hw_12: "courses/professional/physics/electrodynamics/hw_ans/hw_12.md"
+                 - hw_13: "courses/professional/physics/electrodynamics/hw_ans/hw_13.md"
+                 - hw_14: "courses/professional/physics/electrodynamics/hw_ans/hw_14.md"
+                 - hw_15: "courses/professional/physics/electrodynamics/hw_ans/hw_15.md"
           - 电类:
               - 电路原理: "courses/professional/electricity/principles_of_circuits/index.md"
               - 电工与电子技术: "courses/professional/electricity/electrical_and_electronic_technology/index.md"
@@ -166,7 +180,6 @@ nav:
           - 计算类:
               - 计算机原理与应用: "courses/professional/computing/princ_and_app_of_computer/index.md"
               - 动力建模与仿真: "courses/professional/computing/dynamic_modeling_and_simulation/index.md"
-              - 形式语言与自动机: "courses/professional/computing/formal_language/index.md"
           - 能源类:
               - 储能技术: "courses/professional/energy/energy_storage_technology/index.md"
               - 先进燃气轮机理论与实验技术: "courses/professional/energy/gas_turbine_theory/index.md"

@@ -208,13 +208,17 @@ $$
 S = \{(x_1, ..., x_n) \in \mathbb{R}^n | \sum_{i=1}^{n} x_i^2 = 1\}
 $$
 设 $f : \mathbb{R}^n \to \mathbb{R}$ 是 $C^1$ 光滑映射，$(\overline{x}_1, ..., \overline{x}_n) \in S$ 是 $f$ 在 $S$ 上的最大值点，即对任何 $(x_1, ..., x_n) \in S$，有 
+
 $$
-f(x_1, ..., x_n) \leq f(\overline{x}_1, ..., \overline{x}_n)
+f(x_1, ..., x_n) \leq f(\overline{x}\_1, ..., \overline{x}\_n)
 $$
-证明：$f$ 在 $(\overline{x}_1, ..., \overline{x}_n)$ 处的梯度方向平行于向量 $(\overline{x}_1, ..., \overline{x}_n)$，即存在实数 $\lambda$，使得 
+
+证明：$f$ 在 $(\overline{x}_1, ..., \overline{x}_n)$ 处的梯度方向平行于向量 $(\overline{x}_1, ..., \overline{x}_n)$，即存在实数 $\lambda$，使得
+
 $$
-\left( \frac{\partial f}{\partial x_1}, ..., \frac{\partial f}{\partial x_n} \right) |_{(\overline{x}_1, ..., \overline{x}_n)} = \lambda (\overline{x}_1, ..., \overline{x}_n)
+\left( \frac{\partial f}{\partial x_1}, ..., \frac{\partial f}{\partial x_n} \right) |\_{(\overline{x}_1, ..., \overline{x}_n)} = \lambda (\overline{x}_1, ..., \overline{x}_n)
 $$
+
 证明$S$ 是紧致的，显然 $S$ 有界，再说明 $S$ 为闭集，即 $S^{\complement}$是开集，即证明 $S^{\complement}$中的每一个点均为其内点即可。
 $$
 S^{\complement} = \{(x_1, ..., x_n) \in \mathbb{R}^n | \sum_{i=1}^{n} x_i^2 \neq 1\}
@@ -240,7 +244,7 @@ L (x_{1}, x_{2}, \cdots, x_{n}, \lambda) &= f (x_{1}, x_{2}, \cdots, x_{n}) - \l
 $$
 所以
 $$
-\nabla f = 2 \lambda (\overline{x}_1, ..., \overline{x}_n)^{T}
+\nabla f = 2 \lambda (\overline{x}\_1, ..., \overline{x}\_n)^{T}
 $$
 即
 $$
@@ -251,15 +255,15 @@ $$
 
 设 $n$ 元函数 $f(x_1, ..., x_n), g(x_1, ..., x_n)$ 与一元函数 $x_1(t), ..., x_n(t)$ 都是 $C^2$ 光滑的定义函数 
 $$
-h(t) = f(x_1(t), ..., x_n(t))
+h(t) = f(x\_1(t), ..., x\_n(t))
 $$
 (1) 求 $h''(t)$，请用 $f(x_1, ..., x_n)$ 与 $x_1(t), ..., x_n(t)$ 的高阶（偏）导函数表示。  
 $$
-h' (t) = \sum_{i = 1}^{n}  x'_{i} (t) \frac{\partial}{\partial x_{i}} f
+h' (t) = \sum_{i = 1}^{n}  x_{i}' (t) \frac{\partial}{\partial x_{i}} f
 $$
 
 $$
-h'' (t) = \sum_{i = 1}^{n}  x''_{i} (t) \frac{\partial}{\partial x_{i}} f +  \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x'_{i} (t) x'_{j} (t) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} f
+h(t)'' = \sum_{i = 1}^{n}  x_{i}'' (t) \frac{\partial}{\partial x_{i}} f +  \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x_{i}' (t) x_{j}' (t) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} f
 $$
 
 (2) 令 $p = (x_1(0), ..., x_n(0))$。假设 $p$ 是函数 $f(x_1, ..., x_n)$ 在约束条件 $g(x_1, ..., x_n) = 0$ 下的条件极值点。请叙述此情形下的拉格朗日乘子法。  
@@ -269,7 +273,7 @@ $$
 条件极值点满足
 $$
 \begin{aligned}
-\left. \nabla f \right|_{x_{i} = x_{i} (0), 1 \leq i \leq n } &= \lambda \left. \nabla g \right|_{x_{i} = x_{i} (0), 1 \leq i \leq n } \\\\
+\left. \nabla f \right|\_{x_{i} = x_{i} (0), 1 \leq i \leq n } &= \lambda \left. \nabla g \right|\_{x_{i} = x_{i} (0), 1 \leq i \leq n } \\\\
 g (x_{1} (0), \cdots, x_{n} (0)) &= 0
 \end{aligned}
 $$
@@ -278,20 +282,22 @@ $$
 F(x_1, ..., x_n) = f(x_1, ..., x_n) - \lambda g(x_1, ..., x_n)
 $$
 证明：如果对任何 $t$，都有 $g(x_1(t), ..., x_n(t)) = 0$，则 
+
 $$
-h''(0) =  \left. \sum_{i=1}^n \sum_{j=1}^n \frac{\partial^2 F}{\partial x_i \partial x_j} \right|_\mathbf{p}  x_i'(0)  x_j'(0)
+h(0)'' =  \left. \sum_{i=1}^n \sum_{j=1}^n \frac{\partial^2 F}{\partial x_i \partial x_j} \right|\_\mathbf{p}  x_i(0)'  x_j(0)'
 $$
+
 证明：已知
 $$
-h'' (0) = \left. \sum_{i = 1}^{n}  x''_{i} (0) \frac{\partial}{\partial x_{i}} f \right|_{\mathbf{p}} + \left. \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x'_{i} (0) x'_{j} (0) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} f \right|_{\mathbf{p}}
+h'' (0) = \left. \sum_{i = 1}^{n}  x_{i}'' (0) \frac{\partial}{\partial x_{i}} f \right|\_{\mathbf{p}} + \left. \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x_{i}' (0) x_{j}' (0) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} f \right|\_{\mathbf{p}}
 $$
 由于
 $$
-\left. \frac{\partial^2 F}{\partial x_i \partial x_j} \right|_\mathbf{p} = \left. \frac{\partial^2 f}{\partial x_i \partial x_j} \right|_\mathbf{p}  - \lambda \left. \frac{\partial^2 g}{\partial x_i \partial x_j} \right|_\mathbf{p}
+\left. \frac{\partial^2 F}{\partial x_i \partial x_j} \right|\_\mathbf{p} = \left. \frac{\partial^2 f}{\partial x_i \partial x_j} \right|\_\mathbf{p}  - \lambda \left. \frac{\partial^2 g}{\partial x_i \partial x_j} \right|\_\mathbf{p}
 $$
 所以
 $$
-h'' (0) = \left. \sum_{i = 1}^{n}  x''_{i} (0) \frac{\partial}{\partial x_{i}} f \right|_{\mathbf{p}} - \lambda  \left. \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x'_{i} (0) x'_{j} (0) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} g \right|_{\mathbf{p}} + \left. \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x'_{i} (0) x'_{j} (0) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} F \right|_{\mathbf{p}}
+h'' (0) = \left. \sum_{i = 1}^{n}  x_{i}'' (0) \frac{\partial}{\partial x_{i}} f \right|\_{\mathbf{p}} - \lambda  \left. \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x_{i}' (0) x_{j}' (0) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} g \right|\_{\mathbf{p}} + \left. \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x_{i}' (0) x_{j}' (0) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} F \right|_{\mathbf{p}}
 $$
 因为 $n$ 元函数 $f(x_1, ..., x_n), g(x_1, ..., x_n)$ 与一元函数 $x_1(t), ..., x_n(t)$ 都是 $C^2$ 光滑的定义函数 ，所以导数顺序可以交换
 
@@ -301,21 +307,31 @@ g'' (t) = 0
 $$
 所以
 $$
-g'' (t) = \sum_{i = 1}^{n}  x''_{i} (t) \frac{\partial}{\partial x_{i}} g +  \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x'_{i} (t) x'_{j} (t) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} g = 0
+g'' (t) = \sum_{i = 1}^{n}  x_{i}'' (t) \frac{\partial}{\partial x_{i}} g +  \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x_{i}' (t) x_{j}' (t) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} g = 0
 $$
+
 所以
+
 $$
-\lambda  \left. \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x'_{i} (0) x'_{j} (0) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} g \right|_{\mathbf{p}} = - \lambda \left. \sum_{i = 1}^{n}  x''_{i} (t) \frac{\partial}{\partial x_{i}} g \right|_{\mathbf{p}}
+\lambda  \left. \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x_{i}' (0) x_{j}' (0) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} g \right|\_{\mathbf{p}} = - \lambda \left. \sum_{i = 1}^{n}  x_{i}'' (t) \frac{\partial}{\partial x_{i}} g \right|\_{\mathbf{p}}
 $$
+
 因为
+
 $$
 \left. \nabla f \right|_{x_{i} = x_{i} (0), 1 \leq i \leq n } = \lambda \left. \nabla g \right|_{x_{i} = x_{i} (0), 1 \leq i \leq n }
 $$
+
 所以
+
 $$
 - \lambda \left. \sum_{i = 1}^{n}  x''_{i} (t) \frac{\partial}{\partial x_{i}} g \right|_{\mathbf{p}} = - \left. \sum_{i = 1}^{n}  x''_{i} (t) \frac{\partial}{\partial x_{i}} f \right|_{\mathbf{p}}
 $$
+
+
 所以
+
+
 $$
 \begin{aligned}
 h'' (0) &= \left. \sum_{i = 1}^{n}  x''_{i} (0) \frac{\partial}{\partial x_{i}} f \right|_{\mathbf{p}} - \lambda  \left. \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x'_{i} (0) x'_{j} (0) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} g \right|_{\mathbf{p}} + \left. \sum_{i = 1}^{n}  \sum_{j = 1}^{n} x'_{i} (0) x'_{j} (0) \frac{\partial^{2}}{\partial x_{j} \partial x_{i}} F \right|_{\mathbf{p}} \\\\
@@ -335,12 +351,13 @@ f_y(x_0, y_0) - \lambda g_y(x_0, y_0) &= 0. \end{cases}
 \end{aligned}
 $$
 证明
-由于 $g(x_0, y_0) = 0 $ 且 $ \nabla g(x_0, y_0) \neq 0 $ ，根据隐函数定理，存在邻域  $U$  和唯一 $C^1$  函数  $y = \varphi(x) $，使得 $g(x, \varphi(x)) = 0$ 对所有 $ x \in U$ 成立。 
+由于 $g(x_0, y_0) = 0$ 且 $\nabla g(x_0, y_0) \neq 0$ ，根据隐函数定理，存在邻域  $U$  和唯一 $C^1$  函数  $y = \varphi(x)$，使得 $g(x, \varphi(x)) = 0$ 对所有 $x \in U$ 成立。 
+
 $$
 h'(x_0) = f_x(x_0, y_0) + f_y(x_0, y_0) \varphi'(x_0) = 0
 $$
 
-根据隐函数定理，$\varphi'(x_0) = -\frac{g_x(x_0, y_0)}{g_y(x_0, y_0)} $
+根据隐函数定理，$\varphi'(x_0) = -\frac{g_x(x_0, y_0)}{g_y(x_0, y_0)}$
 $$
 f_x - f_y \cdot \frac{g_x}{g_y} = 0
 $$
@@ -352,11 +369,11 @@ $$
 f_y(x_0, y_0) - \lambda g_y(x_0, y_0) &= 0. \end{cases}
 \end{aligned}
 $$
-由于 $(x_0, y_0) $$ 是 $$ f $ 在 $ D $ 上的极小值点，沿梯度 $\nabla g$ 方向
+由于 $(x_0, y_0)$ 是 $f$ 在 $D$ 上的极小值点，沿梯度 $\nabla g$ 方向
 $$
 \nabla f \cdot \frac{\nabla g}{\|\nabla g\|} \geq 0.
 $$
-结合 $\nabla f = \lambda \nabla g $
+结合 $\nabla f = \lambda \nabla g$
 $$
 \lambda \|\nabla g\|^2 \geq 0 \quad \implies \quad \lambda \geq 0.
 $$

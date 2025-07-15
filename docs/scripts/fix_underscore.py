@@ -1,43 +1,48 @@
-# fix_notation.py
+# fix_underscore.py
 import os
 import re
 import argparse
 
-def fix_derivative_notation_in_file(file_path, dry_run=False):
+def fix_underscores_in_content(content):
     """
-    读取文件，将 f_{x}' 或 f_{1}' 这样的导数记法替换为 f_{x}' 或 f_{1}'，然后保存更改。
+    对给定的文本内容执行下划线转义的核心逻辑。
+    它会查找所有紧跟在 '}' 后面的、且未被转义的 '_'，并将其转义。
+    """
+    # 使用一个偏移量来跟踪由于插入字符导致的位置变化
+    offset = 0
+    # 查找所有下划线的位置
+    indices = [m.start() for m in re.finditer('_', content)]
+
+    for i in indices:
+        # 修正当前索引
+        idx = i + offset
+
+        # 条件 1: 检查下划线是否已经转义 (即前面是否是 '\')
+        # 如果是，则跳过，防止重复转义
+        if idx > 0 and content[idx - 1] == '\\':
+            continue
+
+        # 条件 2: 检查下划线是否紧跟在一个右花括号 '}' 后面
+        if idx > 0 and content[idx - 1] == '}':
+            # 执行转义：在下划线前插入一个反斜杠
+            content = content[:idx] + '\\' + content[idx:]
+            # 因为我们插入了一个字符，所以后续的索引需要增加1
+            offset += 1
+            
+    return content
+
+def process_markdown_file(file_path, dry_run=False):
+    """
+    读取文件，调用核心逻辑进行修复，然后保存更改。
     """
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             original_content = f.read()
 
-        # 正则表达式，用于查找 f_{x}', F_{12}'', g_{y}''' 等模式。
-        # 它能同时处理不带花括号的单个字符下标 (f_{x}') 和
-        # 带花括号的多字符下标 (f_{xy}')。
-        # 捕获组:
-        # 1: ([fFgGhH])       - 函数名 (f, F, g, G)
-        # 2: ('+)           - 一个或多个撇号 (即导数阶数)
-        # 3: ([^}]+?)       - 花括号内的下标内容, 例如 'xy' (非贪婪匹配)
-        # 4: ([a-zA-Z0-9])   - 单个字符的下标, 例如 'x'
-        pattern = re.compile(r"([fFgGhH])('+)_\s*(?:\{([^}]+?)\}|([a-zA-Z0-9]))")
-
-        def replacer(match):
-            """这个函数会根据匹配到的内容，将其重新组合成正确的顺序。"""
-            func_name = match.group(1)
-            primes = match.group(2)
-            subscript_braced = match.group(3)
-            subscript_unbraced = match.group(4)
-
-            # 优先使用在花括号中捕获到的下标内容
-            subscript = subscript_braced if subscript_braced is not None else subscript_unbraced
-
-            # 重新组合成标准格式: f_{下标}'
-            return f"{func_name}_{{{subscript}}}{primes}"
-
-        new_content = pattern.sub(replacer, original_content)
+        new_content = fix_underscores_in_content(original_content)
 
         if new_content != original_content:
-            print(f"  - 在文件 [{os.path.basename(file_path)}] 中发现并修正了导数记法。")
+            print(f"  - 在文件 [{os.path.basename(file_path)}] 中发现并修复了下划线。")
             if not dry_run:
                 print(f"    -> 正在写入更改...")
                 with open(file_path, 'w', encoding='utf-8') as f:
@@ -54,7 +59,7 @@ def fix_derivative_notation_in_file(file_path, dry_run=False):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="自动将 LaTeX 中的导数记法从 f_{x}' 格式修正为 f_{x}' 格式。",
+        description="自动转义 LaTeX 复杂表达式后的下划线，以防止 Markdown 渲染错误。",
         formatter_class=argparse.RawTextHelpFormatter
     )
     parser.add_argument(
@@ -79,7 +84,7 @@ def main():
             continue
         
         print(f"🚀 正在处理文件: {file_path}")
-        if fix_derivative_notation_in_file(file_path, args.dry_run):
+        if process_markdown_file(file_path, args.dry_run):
             total_files_changed += 1
     
     print("\n--- 处理完成 ---")
@@ -89,7 +94,7 @@ def main():
         else:
             print(f"✅ 成功修改了 {total_files_changed} 个文件。")
     else:
-        print("🎉 在指定文件中没有找到需要修正的导数记法。")
+        print("🎉 在指定文件中没有找到需要修正的下划线。")
 
 if __name__ == "__main__":
     main()

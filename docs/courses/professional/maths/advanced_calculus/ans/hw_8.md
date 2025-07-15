@@ -16,9 +16,10 @@ $$
 利用换元公式
 $$
 \begin{aligned}
-S = \iint_{D} dx dy = \iint_{\Phi^{-1} (D)} \begin{vmatrix} y & - \frac{y}{x^{2}} \\\\
+S &= \iint_{D} dx dy = \iint_{\Phi^{-1} (D)} 
+\begin{vmatrix} y & - \frac{y}{x^{2}} \\\\
 x & \frac{1}{x} \end{vmatrix}^{-1} du dv \\\\
-= \iint_{\Phi^{-1} (D)} \begin{vmatrix} \sqrt{uv} & - \frac{v}{\sqrt{\frac{u}{v}}} \\\\
+&= \iint_{\Phi^{-1} (D)} \begin{vmatrix} \sqrt{uv} & - \frac{v}{\sqrt{\frac{u}{v}}} \\\\
 \sqrt{\frac{u}{v}} & \frac{1}{\sqrt{\frac{u}{v}}} \end{vmatrix}^{-1} du dv = \iint_{\Phi^{-1} (D)} \frac{1}{2v} du dv \\\\
 &= \frac{b - a}{2} \ln \frac{d}{c}
 \end{aligned}
@@ -41,7 +42,7 @@ $$
 $$
 \begin{aligned}
 \iint_D \frac{xy}{x^2 - y^2} dxdy &= \iint_{\Phi^{-1} (D)} (f \circ \Phi) \det (J_{\Phi}) du dv \\\\
-= \iint_{\Phi^{-1} (D)} \frac{\frac{4}{5} \sqrt{(u + v) (v - \frac{u}{4})}}{u} \begin{vmatrix} \frac{1}{\sqrt{5 (u + v)}} & - \frac{1}{4} \frac{1}{\sqrt{5 (v - \frac{u}{4})}} \\\\
+&= \iint_{\Phi^{-1} (D)} \frac{\frac{4}{5} \sqrt{(u + v) (v - \frac{u}{4})}}{u} \begin{vmatrix} \frac{1}{\sqrt{5 (u + v)}} & - \frac{1}{4} \frac{1}{\sqrt{5 (v - \frac{u}{4})}} \\\\
 \frac{1}{\sqrt{5 (u + v)}} & \frac{1}{\sqrt{5 (v - \frac{u}{4})}} \end{vmatrix} du dv \\\\
 &= \iint_{\Phi^{-1} (D)} \frac{1}{5u} du dv = \frac{6}{5} \ln 2
 \end{aligned}
@@ -82,7 +83,7 @@ $$
 $$
 \begin{aligned}
 &x^2 + y^2 + z^2 + xy + yz + zx \leq 1 \\\\
-(\frac{\sqrt{2}}{2} x + \frac{\sqrt{2}}{2} y)^{2} + (\frac{\sqrt{2}}{2} y + \frac{\sqrt{2}}{2} z)^{2} + (\frac{\sqrt{2}}{2} x + \frac{\sqrt{2}}{2} z)^{2} \leq 1
+&(\frac{\sqrt{2}}{2} x + \frac{\sqrt{2}}{2} y)^{2} + (\frac{\sqrt{2}}{2} y + \frac{\sqrt{2}}{2} z)^{2} + (\frac{\sqrt{2}}{2} x + \frac{\sqrt{2}}{2} z)^{2} \leq 1
 \end{aligned}
 $$
 所以作换元
@@ -97,7 +98,7 @@ $$
 $$
 \begin{aligned}
 \iiint_V dxdydz &= \iiint_{\Phi^{-1} (V)} (f \circ \Phi) \det (J_{\Phi}) du dv dw \\\\
-= \iiint_{\Phi^{-1} (V)} \begin{vmatrix} 0 & \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} \\\\
+&= \iiint_{\Phi^{-1} (V)} \begin{vmatrix} 0 & \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} \\\\
 \frac{\sqrt{2}}{2} & 0 & \frac{\sqrt{2}}{2} \\\\
 \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} & 0 \end{vmatrix}^{-1} du dv dw \\\\
 &= \frac{1}{\frac{\sqrt{2}}{2}} \cdot \frac{4 \pi}{3} = \frac{4 \sqrt{2} \pi}{3}
@@ -116,7 +117,7 @@ $$
 
 容易得知
 $$
-\left. \frac{d}{dx} g (x) \right|_{x = x_{0}} = \left. \frac{\partial f}{\partial x} \right|_{ (x,y) = (x_{0}, y_{0})}
+\left. \frac{d}{dx} g (x) \right|\_{x = x_{0}} = \left. \frac{\partial f}{\partial x} \right|\_{ (x,y) = (x_{0}, y_{0})}
 $$
 由于偏导数 $\frac{\partial f}{\partial x}$ 连续，所以 $g'$ 连续，对 $g (x)$ 使用一元的 N-L 公式
 $$
@@ -188,12 +189,14 @@ $$
 $$
 \begin{aligned}
 V &= \iiint_{\Phi^{-1} (V)} \det (J_{\Phi}) du dv dt \\\\
-= \iiint_{\Phi^{-1} (V)} \begin{vmatrix} 1 - t & 0 & 0 \\\\
+&= \iiint_{\Phi^{-1} (V)} \begin{vmatrix} 1 - t & 0 & 0 \\\\
 0 & 1 - t & 0 \\\\
 -u & -v & 1 \end{vmatrix} du dv dt \\\\
 &= \iiint_{\Phi^{-1} (V)} (1 - t)^{2} du dv dt = \iint_{D} du dv \int_{0}^{1} (1 - t)^{2} dt = \frac{1}{3} S
 \end{aligned}
 $$
+
+
 7.给定非负整数 $a,b,c$。令
 $$
 Q = \{(x,y,z) \in R^3 | x+y+z \leq 1, x \geq 0, y \geq 0, z \geq 0\}
@@ -216,7 +219,7 @@ $$
 因为
 $$
 \begin{aligned}
-\int_{0}^{1} z^{c} (1 - z)^{a + b + 2} &= \left. \frac{1}{c + 1} z^{c + 1} (1 - z)^{a + b + 2} \right|_{z = 0}^{z = 1} + \frac{a + b + 2}{c + 1} \int_{0}^{1} z^{c + 1} (1 - z)^{a + b + 1} dz \\\\
+\int_{0}^{1} z^{c} (1 - z)^{a + b + 2} &= \left. \frac{1}{c + 1} z^{c + 1} (1 - z)^{a + b + 2} \right|\_{z = 0}^{z = 1} + \frac{a + b + 2}{c + 1} \int_{0}^{1} z^{c + 1} (1 - z)^{a + b + 1} dz \\\\
 &= \frac{a + b + 2}{c + 1} \int_{0}^{1} z^{c + 1} (1 - z)^{a + b + 1} dz
 \end{aligned}
 $$
