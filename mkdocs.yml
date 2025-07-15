@@ -70,9 +70,9 @@ extra:
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
 extra_javascript:
+  - custom_js/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  #- custom_js/mathjax.js
 
 extra_css:
   - custom_css/extra.css
@@ -165,7 +165,6 @@ nav:
                  - hw_8: "courses/professional/physics/electrodynamics/hw_ans/hw_8.md"
                  - hw_9: "courses/professional/physics/electrodynamics/hw_ans/hw_9.md"
                  - hw_10: "courses/professional/physics/electrodynamics/hw_ans/hw_10.md"
-                 - hw_11: "courses/professional/physics/electrodynamics/hw_ans/hw_11.md"
                  - hw_12: "courses/professional/physics/electrodynamics/hw_ans/hw_12.md"
                  - hw_13: "courses/professional/physics/electrodynamics/hw_ans/hw_13.md"
                  - hw_14: "courses/professional/physics/electrodynamics/hw_ans/hw_14.md"

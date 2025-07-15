@@ -12,17 +12,18 @@ Chasse_neige
 
 在电偶极子系中，电偶极子产生的电磁势为：
 $$
-\begin{pmatrix} A_{x} \\ A_{y} \\ A_{z} \\ \frac{\phi}{c} \end{pmatrix} 
-= 
-\begin{pmatrix} \gamma & 0 & 0 & \gamma \beta \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ \gamma \beta & 0 & 0 & \gamma  \end{pmatrix} 
-\begin{pmatrix} A'_{x} \\ A'_{y} \\ A'_{z} \\ \frac{\phi'}{c} \end{pmatrix} 
-= \begin{pmatrix} \gamma & 0 & 0 & \gamma \beta \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ \gamma \beta & 0 & 0 & \gamma  \end{pmatrix}
-\begin{pmatrix} 0 \\ 0 \\ 0 \\ \frac{1}{4 \pi \epsilon_{0} c} \frac{\vec{r'} \cdot \vec{p_{0}}}{r'^{3}} \end{pmatrix} 
+\begin{aligned}
+\begin{pmatrix} A_{x} \\\\ A_{y} \\\\ A_{z} \\\\ \frac{\phi}{c} \end{pmatrix} 
+= \begin{pmatrix} \gamma & 0 & 0 & \gamma \beta \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ \gamma \beta & 0 & 0 & \gamma  \end{pmatrix} 
+\begin{pmatrix} A_{x}' \\\\ A_{y}' \\\\ A_{z}' \\\\ \frac{\phi'}{c} \end{pmatrix} 
+= \begin{pmatrix} \gamma & 0 & 0 & \gamma \beta \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ \gamma \beta & 0 & 0 & \gamma  \end{pmatrix}
+\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\\\ \frac{1}{4 \pi \epsilon_{0} c} \frac{\vec{r'} \cdot \vec{p_{0}}}{r'^{3}} \end{pmatrix} 
 = \begin{pmatrix} 
-\frac{\gamma \beta}{4 \pi \epsilon_{0} c} \frac{\vec{r'} \cdot \vec{p_{0}}}{r'^{3}} \\
-0 \\
-0 \\
+\frac{\gamma \beta}{4 \pi \epsilon_{0} c} \frac{\vec{r'} \cdot \vec{p_{0}}}{r'^{3}} \\\\
+0 \\\\
+0 \\\\
 \frac{\gamma}{4 \pi \epsilon_{0} c} \frac{\vec{r'} \cdot \vec{p_{0}}}{r'^{3}} \end{pmatrix}
+\end{aligned}
 $$
 
 
@@ -36,7 +37,7 @@ $$
 $$
 换至地面系中，得到：
 $$
-E_{x} = E'_{x} = \frac{1}{4 \pi \epsilon_{0}} \frac{3 (\vec{p_{0}} \cdot \vec{r'}) x' - r'^{2} (\vec{p_{0}} \cdot \hat{x'})}{r'^{5}}
+E_{x} = E_{x}' = \frac{1}{4 \pi \epsilon_{0}} \frac{3 (\vec{p_{0}} \cdot \vec{r'}) x' - r'^{2} (\vec{p_{0}} \cdot \hat{x'})}{r'^{5}}
 $$
 
 $$
@@ -61,27 +62,27 @@ $$
 
 其中$\vec{r'} = \begin{pmatrix} \gamma (x - \beta c t), y, z \end{pmatrix}^{\top}$
 
-6.15 有一沿 $z$ 轴方向螺旋进动的静磁场 $\vec{B} = B_0 (\cos k_m z \hat{e}\_x + \sin k_m z \hat{e}\_y)$，其中 $k_m = 2\pi / \lambda_m$，$\lambda_m$ 为磁场周期长度。现有一沿 $z$ 轴以速度 $v = \beta c$ 运动的惯性系，求在该惯性系中观察到的电磁场。证明当 $\beta \simeq 1$ 时该电磁场类似于一列频率为 $\gamma \cdot \beta c k_m$ 的圆偏振电磁波。
+6.15 有一沿 $z$ 轴方向螺旋进动的静磁场 $\vec{B} = B_0 (\cos k_m z \hat{e}_x + \sin k_m z \hat{e}_y)$，其中 $k_m = 2\pi / \lambda_m$，$\lambda_m$ 为磁场周期长度。现有一沿 $z$ 轴以速度 $v = \beta c$ 运动的惯性系，求在该惯性系中观察到的电磁场。证明当 $\beta \simeq 1$ 时该电磁场类似于一列频率为 $\gamma \cdot \beta c k_m$ 的圆偏振电磁波。
 
 在该系中：
 $$
-E'_{x} = \gamma (E_{x} - \beta c B_{y}) = - \gamma \beta c B_{0} \sin k_{m} z
+E_{x}' = \gamma (E_{x} - \beta c B_{y}) = - \gamma \beta c B_{0} \sin k_{m} z
 $$
 
 $$
-E'_{y} = \gamma (E_{y} + \beta c B_{x}) = \gamma \beta c B_{0} \cos k_{m} z
+E_{y}' = \gamma (E_{y} + \beta c B_{x}) = \gamma \beta c B_{0} \cos k_{m} z
 $$
 
 $$
-E'_{z} = E_{z} = 0
+E_{z}' = E_{z} = 0
 $$
 
 $$
-B'_{x} = \gamma (B_{x} + \beta c E_{z}) = \gamma B_{x} = \gamma B_{0} \cos k_{m} z
+B_{x}' = \gamma (B_{x} + \beta c E_{z}) = \gamma B_{x} = \gamma B_{0} \cos k_{m} z
 $$
 
 $$
-B'_{y} = \gamma (B_{y} - \beta c E_{x}) = \gamma B_{y} = \gamma B_{0} \sin k_{m} z
+B_{y}' = \gamma (B_{y} - \beta c E_{x}) = \gamma B_{y} = \gamma B_{0} \sin k_{m} z
 $$
 
 $$
@@ -110,15 +111,18 @@ $$
 &\begin{pmatrix} \gamma_{v} f_{x} \\\\
 \gamma_{v} f_{y} \\\\
 \gamma_{v} f_{z} \\\\
-\gamma_{v} \frac{\vec{f} \cdot \vec{v}}{c} \end{pmatrix} = \begin{pmatrix} \gamma & 0 & 0 & \gamma \beta \\\\
+\gamma_{v} \frac{\vec{f} \cdot \vec{v}}{c} \end{pmatrix} = 
+\begin{pmatrix} \gamma & 0 & 0 & \gamma \beta \\\\
 0 & 1 & 0 & 0 \\\\
 0 & 0 & 1 & 0 \\\\
-\gamma \beta & 0 & 0 & \gamma \end{pmatrix} \begin{pmatrix} \gamma_{v'} f'_{x} \\\\
-\gamma_{v'} f'_{y} \\\\
-\gamma_{v'} f'_{z} \\\\
+\gamma \beta & 0 & 0 & \gamma \end{pmatrix} 
+\begin{pmatrix} \gamma_{v'} f_{x}' \\\\
+\gamma_{v'} f_{y}' \\\\
+\gamma_{v'} f_{z}' \\\\
 \gamma_{v'} \frac{\vec{f'} \cdot \vec{v'}}{c}  \end{pmatrix}
 \end{aligned}
 $$
+
 在带电线静止系中，4-力矢量为$\begin{pmatrix} \frac{\lambda q}{2 \pi \epsilon_{0} d} \hat{r}, 0 \end{pmatrix}$
 
 所以$\gamma_{v} \vec{f} = \frac{\lambda q}{2 \pi \epsilon_{0} d} \hat{r}$
