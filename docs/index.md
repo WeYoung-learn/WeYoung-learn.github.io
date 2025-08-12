@@ -4,16 +4,32 @@ comments: true
 
 # 未央书院学习资料共享计划
 
-!!! note "最近更新"
+## 网站更新日志
+
+???- note "最新更新（2025/07/15）：新增多份社区贡献资料"
+
+    感谢社区成员的积极贡献！本次更新详情如下：
+
+    - **选课指南**: [点击查看](course_selection/)
+    - **程序设计基础 (C++) 笔记**: [点击查看](courses/basic/engineer_info/programming/note_cpp/)
+    - **程序设计基础 (Python) 笔记**: [点击查看](courses/basic/engineer_info/programming/note_py/)
+    - **李岩松复变函数答案**: [点击查看](courses/basic/maths/complex_func/hw_ans/)
+    - **离散数学2 Cheatsheet**: [点击查看](courses/basic/engineer_info/discrete_mathematics_2/)
+    - **王青电动力学答案**: [点击查看](courses/professional/physics/electrodynamics/)
+    - **艾颖华高等微积分答案**: [点击查看](courses/professional/maths/advanced_calculus/)
+
+---
+
+!!! note "过往更新摘要"
 
     2024/06/15：添加数理基础课程资料与部分专业课资料
 
     2023/06/20: 添加部分工科衔接方向的相关资料链接，见“资源链接”板块
 
     2023/05/09：PDF 在线预览 feature
-    
+
     2023/04/20：修改格式问题
-    
+
     2023/04/06：更新“乐学”部分资源
 
 
