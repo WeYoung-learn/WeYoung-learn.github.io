@@ -28,8 +28,14 @@ theme:
     - navigation.tabs
     - navigation
     - navigation.top
+    - navigation.sections 
+    - navigation.tracking
+
 
 markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
   - admonition
@@ -39,7 +45,6 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - attr_list
   - md_in_html
 
@@ -65,22 +70,50 @@ extra:
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
 extra_javascript:
-  - javascripts/mathjax.js
+  - custom_js/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - custom_css/extra.css
+
+  
 
 nav:
   - 首页:
       - 欢迎来到未央学习: "index.md"
       - 读者须知: "reader.md"
       - 加入我们！: "author.md"
+  - 选课指南:
+      - 介绍: "course_selection/index.md"
+      - 思政篇: "course_selection/politics/index.md"
+      - 化生篇: "course_selection/chem_bio/index.md"
+      - 数理篇: "course_selection/math_phys/index.md"
+      - 工信篇: "course_selection/engineer_info/index.md"
+      - 英语篇: "course_selection/english/index.md"
+      - 体育篇: "course_selection/pe/index.md"
+      - 通识篇: "course_selection/general/index.md"
   - 课程指引:
       - 介绍: "courses/index.md"
       - 基础课:
           - 数学类: 
               - 微积分: "courses/basic/maths/calculus/index.md"
               - 线性代数: "courses/basic/maths/linear_algebra/index.md"
-              - 复变函数: "courses/basic/maths/complex_func/index.md"
+              - 复变函数:
+                  - 介绍: "courses/basic/maths/complex_func/index.md"
+                  - 作业答案:
+                    - 主页: "courses/basic/maths/complex_func/hw_ans/index.md"
+                    - hw_1: "courses/basic/maths/complex_func/hw_ans/hw_1.md"
+                    - hw_2: "courses/basic/maths/complex_func/hw_ans/hw_2.md"
+                    - hw_3: "courses/basic/maths/complex_func/hw_ans/hw_3.md"
+                    - hw_4: "courses/basic/maths/complex_func/hw_ans/hw_4.md"
+                    - hw_5: "courses/basic/maths/complex_func/hw_ans/hw_5.md"
+                    - hw_6: "courses/basic/maths/complex_func/hw_ans/hw_6.md"
+                    - hw_7: "courses/basic/maths/complex_func/hw_ans/hw_7.md"
+                    - hw_8: "courses/basic/maths/complex_func/hw_ans/hw_8.md"
+                    - hw_9: "courses/basic/maths/complex_func/hw_ans/hw_9.md"
+                    - hw_10: "courses/basic/maths/complex_func/hw_ans/hw_10.md"
+                    - hw_11: "courses/basic/maths/complex_func/hw_ans/hw_11.md"
               - 数学物理方程: "courses/basic/maths/mathematical_physics_equations/index.md"
               - 概率论: "courses/basic/maths/probability/index.md"
           - 物理类: 
@@ -96,34 +129,58 @@ nav:
               - 物理化学B: "courses/basic/chem_bio/physical_chemistry_b/index.md"
           - 工程/信息基础课程:
               - 离散数学: "courses/basic/engineer_info/discrete_mathematics/index.md"
-              - 程序设计基础: "courses/basic/engineer_info/programming/index.md"
+              - 离散数学(2): "courses/basic/engineer_info/discrete_mathematics_2/index.md"
+              - 程序设计基础:
+                - 主页: "courses/basic/engineer_info/programming/index.md"
+                - Python 程序设计笔记: "courses/basic/engineer_info/programming/note_py.md"
+                - C++ 程序设计笔记: "courses/basic/engineer_info/programming/note_cpp.md"
               - 工程图学基础/机械设计基础(1): "courses/basic/engineer_info/fundamentals_of_engineering_graphics/index.md"
       - 专业课:
           - 数学类: 
               - 常微分方程: "courses/professional/maths/ordinary_differential_equation/index.md"
               - 高等线性代数选讲（英）: "courses/professional/maths/advanced_algebra_selected/index.md"
               - 基础拓扑学: "courses/professional/maths/fundamental_topology/index.md"
+              - 高等微积分:
+                - 介绍: "courses/professional/maths/advanced_calculus/index.md"
+                - hw_1: "courses/professional/maths/advanced_calculus/ans/hw_1.md"
+                - hw_2: "courses/professional/maths/advanced_calculus/ans/hw_2.md"
+                - hw_3: "courses/professional/maths/advanced_calculus/ans/hw_3.md"
+                - hw_4: "courses/professional/maths/advanced_calculus/ans/hw_4.md"
+                - hw_5: "courses/professional/maths/advanced_calculus/ans/hw_5.md"
+                - hw_6: "courses/professional/maths/advanced_calculus/ans/hw_6.md"
+                - hw_7: "courses/professional/maths/advanced_calculus/ans/hw_7.md"
+                - hw_8: "courses/professional/maths/advanced_calculus/ans/hw_8.md"
+                - hw_9: "courses/professional/maths/advanced_calculus/ans/hw_9.md"
+                - hw_10: "courses/professional/maths/advanced_calculus/ans/hw_10.md"
           - 物理类: 
               - 统计力学: "courses/professional/physics/statistical_mechanics/index.md"
+              - 电动力学: 
+                 - 介绍: "courses/professional/physics/electrodynamics/index.md"
+                 - hw_2: "courses/professional/physics/electrodynamics/hw_ans/hw_2.md"
+                 - hw_3: "courses/professional/physics/electrodynamics/hw_ans/hw_3.md"
+                 - hw_4: "courses/professional/physics/electrodynamics/hw_ans/hw_4.md"
+                 - hw_5: "courses/professional/physics/electrodynamics/hw_ans/hw_5.md"
+                 - hw_6: "courses/professional/physics/electrodynamics/hw_ans/hw_6.md"
+                 - hw_7: "courses/professional/physics/electrodynamics/hw_ans/hw_7.md"
+                 - hw_8: "courses/professional/physics/electrodynamics/hw_ans/hw_8.md"
+                 - hw_9: "courses/professional/physics/electrodynamics/hw_ans/hw_9.md"
+                 - hw_10: "courses/professional/physics/electrodynamics/hw_ans/hw_10.md"
+                 - hw_12: "courses/professional/physics/electrodynamics/hw_ans/hw_12.md"
+                 - hw_13: "courses/professional/physics/electrodynamics/hw_ans/hw_13.md"
+                 - hw_14: "courses/professional/physics/electrodynamics/hw_ans/hw_14.md"
+                 - hw_15: "courses/professional/physics/electrodynamics/hw_ans/hw_15.md"
           - 电类:
               - 电路原理: "courses/professional/electricity/principles_of_circuits/index.md"
               - 电工与电子技术: "courses/professional/electricity/electrical_and_electronic_technology/index.md"
               - 电力电子技术: "courses/professional/electricity/power_electronics/index.md"
           - 材料类:
               - 材料科学基础: "courses/professional/materials/funda_of_materials_science/index.md"
-              - 材料分析与表征: "courses/professional/materials/analys_charac_of_materials/index.md"
               - 工程材料: "courses/professional/materials/engineering_materials/index.md"
           - 计算类:
               - 计算机原理与应用: "courses/professional/computing/princ_and_app_of_computer/index.md"
-              - 数据结构与算法分析（工工）: "courses/professional/computing/analysis_of_dsa/index.md"
-              - 数值分析: "courses/professional/computing/numerical_analysis/index.md"
               - 动力建模与仿真: "courses/professional/computing/dynamic_modeling_and_simulation/index.md"
           - 能源类:
               - 储能技术: "courses/professional/energy/energy_storage_technology/index.md"
-              - 工程热力学: "courses/professional/energy/engineering_thermodynamics/index.md"
-              - 能源利用中的物理化学（英）: "courses/professional/energy/physical_chemistry_in_energy/index.md"
-              - 热工参数测量与处理: "courses/professional/energy/thermal_measurement/index.md"
-              - 燃烧理论: "courses/professional/energy/combustion_theory/index.md"
               - 先进燃气轮机理论与实验技术: "courses/professional/energy/gas_turbine_theory/index.md"
           - 机械类: 
               - 机械设计基础 B(3): "courses/professional/mechanics/mechnical_design_b3/index.md"
